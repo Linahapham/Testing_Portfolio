@@ -10,11 +10,15 @@ const AboutPage = () => {
     const { scrollYProgress } = useScroll({ container: containerRef });
 
     const skillRef = useRef();
-    //const isSkillRefInView = useInView(skillRef, { once: true });
-    const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
+    //const isSkillRefInView1 = useInView(skillRef, { once: true });
+    const isSkillRefInView = useInView(skillRef, { margin: "-80px" });
 
     const experienceRef = useRef();
-    const isExperienceRefInView = useInView(experienceRef, { margin: "-100px" });
+    const isExperienceRefInView = useInView(experienceRef, { margin: "-80px" });
+
+    const educationRef = useRef();
+    const isEducationRefInView = useInView(educationRef, { margin: "-80px" });
+
 
     return (
         <motion.div
@@ -31,17 +35,12 @@ const AboutPage = () => {
                     <div className="flex flex-col gap-12 justify-center">
                         {/* BIOGRAPHY IMAGE */}
                         <motion.div
-                            animate={{
-                                scale: [1, 2, 2, 1, 1],
-                                rotate: [45, 0, 90, 180, 0],
-                                borderRadius: ["0%", "0%", "50%", "50%", "0%"],
-                            }}
+                            initial={{ opacity: 0, scale: 5 }}
+                            animate={{ opacity: 1, scale: 1 }}
                             transition={{
                                 duration: 2,
-                                ease: "easeInOut",
-                                //times: [0, 0.2, 0.5, 0.8, 1],
-                                //repeat: Infinity,
-                                repeatDelay: 1,
+                                delay: 0.8,
+                                ease: [0, 0.71, 0.2, 1.01]
                             }}
                         >
                             <img
@@ -56,7 +55,11 @@ const AboutPage = () => {
                         <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
                         {/* BIOGRAPHY DESC */}
                         <p className="text-lg">
-                            I am a junior Front-End Developer (web & mobile apps). I have successfully launched and sold an online business. I specialize in website and app development in the bike rental and food delivery sectors. I consider myself to have a strong work ethic and a passion for technology, as demonstrated through my self-learning experiences.
+                            Hello everyone, my name is HUYEN NGUYEN or you can call me LINA. I am a junior Front-End Developer (web & mobile apps). I have successfully launched and sold an online business. I specialize in website and app development in the bike rental and food delivery sectors. I consider myself to have a strong work ethic and a passion for technology, as demonstrated through my self-learning experiences.
+                        </p>
+
+                        <p className="text-lg ">
+                            My obsession is to deliver a digital experience that not only serves a great purpose, but gives your business an unfair advantage.
                         </p>
                         {/* BIOGRAPHY QUOTE */}
                         <span className="italic">
@@ -67,15 +70,11 @@ const AboutPage = () => {
                             <svg
                                 width="185"
                                 height="77"
-                                viewBox="0 0 370 114"
+                                viewBox="0 0 653 297"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
-                                <path
-                                    d="M66 2C66 29.4851 68.6687 64.5118 49.3333 87.4444C42.4997 95.5495 35.7683 97.6796 26.2222 101C20.002 103.164 8.87322 103.873 4 99C-0.260934 94.7391 2.94804 88.1756 8.22222 86.2222C13.7053 84.1915 17.942 84 23.7778 84C33.359 84 41.3193 83.5602 50.2222 87C56.6125 89.469 63.5773 91.9131 69.5555 95.5C75.4778 99.0533 87.1838 104.357 93.5 99.4444C96.1292 97.3995 96.2752 92.5118 96.9444 89.5C97.9646 84.9092 92.6432 83.2024 89 83C84.472 82.7484 82.3397 81.8856 82 88C81.8025 91.5554 83.5627 94.4193 86 97C88.9648 100.139 92.0717 100.96 96 98.7778C99.3106 96.9386 98 90.7299 98 87.5C98 85.0327 98.4365 83.1348 99.2222 80.7778C100.357 77.3743 99.2311 78.4486 101.5 77.9444C105.352 77.0886 108 76.4766 108 81.5C108 85.6646 109 89.3473 109 93.5C109 100.142 108.863 95.0454 110.5 91.4444C112.765 86.4616 116.631 81.205 121.5 78.5C127.057 75.4129 126 82.1509 126 85.5C126 92.5532 124.42 102 134 102C142.932 102 153 102.569 153 91.2222C153 87.1735 153.772 81.3206 148 81C141.934 80.663 142.107 81.8068 139.5 86.5C134.378 95.7204 137.972 105 149.5 105C153.589 105 153.996 99.8977 155.5 96.8889C157.902 92.0843 161 85.4067 161 80C161 74.0547 158.407 82.7413 157.222 84.2222C155.194 86.7574 155 92.5718 155 95.7778C155 99.9302 153.8 104.999 158 107.222C161.954 109.316 164.884 106.382 167.778 103.778C171.15 100.743 175.896 99.1107 180 97C186.143 93.8409 191.659 91.4099 198.222 89.2222C206.505 86.4614 214.839 87 223.5 87C230.613 87 231.628 104 222.5 104C216.954 104 199.251 107.814 207 95.2222C211.456 87.9805 214.484 80.6007 220 73.7778C229.781 61.6805 242.696 50.8197 256.222 43C264.769 38.0591 274.192 34.6264 283 30.2222C286.55 28.4473 280.07 32.3343 278.5 33.5556C271.707 38.8391 266.609 45.3914 260.556 51.4444C255.356 56.6444 250.682 61.459 246.5 67.5C242.917 72.6757 239.364 77.3825 236.556 83C233.829 88.4524 231.82 94.3142 228.556 99.4444C226.693 102.371 225.518 107.823 222.5 109.5C214.795 113.78 217.517 100.438 218.056 95.0556C218.678 88.8318 227.982 85.7572 233.056 88.6111C239.614 92.3003 245.506 97.7883 252 101.778C254.886 103.551 259.46 107 263 107C271.267 107 273.32 81.9392 268.778 77.2222C264.112 72.3774 261.206 80.5039 261 84C260.576 91.2135 257.836 96.9269 264.778 102C272.242 107.454 285.041 112.276 292.111 104.833C298.002 98.6323 304.301 90.8902 308.556 83.4444C310.355 80.295 310.132 84.6251 309.444 86C305.387 94.1158 303 102.264 303 111.5C303 116.021 337.534 99.1863 340.5 98C347.33 95.2679 355.47 93.8299 361.778 90C363.935 88.6902 365.473 88 368 88"
-                                    stroke="black"
-                                    strokeWidth="2"
-                                />
+                                <path d="M66.5 141C66.5 149.389 73.9932 105.216 55.5 77.9999C46.584 64.8787 0.241037 58.1922 2.50001 39C2.85312 36 -0.5 21 12.0556 8.99994C20 4.0555 24.2047 9.5542 30.2222 9.99994M30.2222 9.99994C32.2857 10.1528 28.2655 9.99994 30.2222 9.99994ZM30.2222 9.99994C31.6921 9.99994 37 8.93552 37 12.2222C37 34.162 36 56.0491 36 77.9999C36 103.17 41 128.262 41 153.555C41 171.695 40.137 188.161 36.2223 205.778C35.3614 209.652 32.3151 213.454 28 213C18.5784 212.008 20 189.364 20 184C20 174.303 18.8561 164.105 22.5556 154.944C26.2469 145.804 29.7477 137.151 35.5 129.055C54.219 102.71 81.7252 89.5574 106.778 70.9999C113.85 65.7613 118.018 52.6679 121 44.9999C124.878 35.0278 128.015 25.3043 128.944 14.6111C129.519 8.00884 126 1.99994 118.5 1.99994C114.654 1.99994 110.84 1.15955 107.944 4.0555C104.079 7.92104 101.193 14.616 99 19.6111C80.5903 61.5443 85 108.295 85 153C85 167.176 81.9255 185.566 87.5 198.944C89.7742 204.402 93.5128 215 101 215C108.829 215 112.62 211.516 117.778 205.555C125.793 196.293 133.207 186.119 137.222 174.555C139.974 166.63 141 156.436 141 148C141 146.479 140.207 141.94 141.056 140.667C141.15 140.526 142.911 145.659 143 146C143.733 148.809 144.541 151.575 145 154.444C146.683 164.961 149.671 175.264 151.222 185.778C151.964 190.808 154.156 203 161 203C167.346 203 171.849 194.226 175 189.5C180.609 181.086 186 171.504 186 161.055C186 158.319 183.761 141.406 186 146.444C190.186 155.863 190.588 176.78 195 186.444C202.5 206 208.5 190 218 194.5C220 199.5 237.346 188.2 239 184C241.247 178.296 243.691 172.678 246 167C247.956 162.188 248.822 157.423 250.444 152.555C251.158 150.415 251.129 147.444 252.556 151.111C255.407 158.444 258.035 165.961 264 171.5C265.809 173.18 266.749 175.097 269 176.222C273.427 178.435 275.116 170.742 276.667 167.667C281.692 157.699 285.584 147.464 290.222 137.444C290.98 135.808 291.754 134.196 292.5 132.555C292.585 132.368 293.153 130.436 293.222 130.444C295.513 130.731 294 156.225 294 159.055C294 175.702 286.724 194.683 279.5 209.444C272.301 224.156 264.281 237.803 250.667 247.333C247.024 249.883 237.195 253.034 237 246C236.509 228.314 248.825 216.081 261.167 204.389C272.897 193.276 285.831 184.575 300.5 178.055C313.222 172.401 334.214 173.037 338 156C339.304 150.131 340.514 144.392 334.445 141C332.752 140.054 329.125 137.16 327 138.222C324.98 139.232 323.62 148.086 323 150.222C321.008 157.085 315.03 180.741 324.611 185C334.603 189.441 340.668 176.493 345.556 170.111C350.833 163.22 355.168 156.131 358.778 148.222C359.845 145.884 361.345 140.099 363.222 138.222C363.615 137.83 367.729 151.489 367.945 153C368.198 154.775 367.945 170.652 367.945 172.444C367.945 175.093 368.86 153.445 369 152.5C370.876 139.841 381.475 128.026 392.222 121.778C396.487 119.298 406.18 116.516 409 122C415.365 134.376 411.633 150.523 405.556 162.389C404.367 164.709 401.111 169.603 401.111 172.444C401.111 173.497 416.469 164.356 417.722 163.667C426.809 158.669 434.435 151.696 443.333 146.444C443.513 146.338 448.158 143.684 445.389 144.278C436.047 146.28 426.659 152.158 418.333 156.444C363.483 184.688 310.829 217.56 258.111 249.555C239.401 260.911 220.74 272.883 202.889 285.555C199.629 287.87 194.5 290.758 192.333 294.278C191.612 295.449 197.39 295.003 197.667 295C232.402 294.659 266.321 277.331 297 262.889C377.334 225.071 458.331 188.59 539.333 152.222C576.319 135.616 613.515 119.435 651 104" stroke="black" stroke-width="3" stroke-linecap="round" />
                             </svg>
                         </div>
                         {/* BIOGRAPHY SCROLL SVG */}
@@ -102,13 +101,14 @@ const AboutPage = () => {
                             ></path>
                         </motion.svg>
                     </div>
+
                     {/* SKILLS CONTAINER */}
                     <div className="flex flex-col gap-12 justify-center" ref={skillRef}>
                         {/* SKILL TITLE */}
                         <motion.h1
                             initial={{ x: "-300px" }}
                             animate={isSkillRefInView ? { x: 0 } : {}}
-                            transition={{ delay: 0.2 }}
+                            transition={{ delay: 0.5 }}
                             className="font-bold text-2xl"
                         >
                             SKILLS
@@ -204,14 +204,130 @@ const AboutPage = () => {
                         </motion.svg>
                     </div>
 
+                    {/* EXPERIENCE CONTAINER */}
+                    <div className="flex flex-col gap-12 justify-center pb-48" ref={educationRef}
+                    >
+                        {/* EXPERIENCE TITLE */}
+                        <motion.h1
+                            initial={{ x: "-600px" }}
+                            animate={isEducationRefInView ? { x: "0" } : {}}
+                            transition={{ delay: 0.2 }}
+                            className="font-bold text-2xl"
+                        >
+                            EDUCATION
+                        </motion.h1>
+                        {/* EXPERIENCE LIST */}
+                        <motion.div
+                            initial={{ x: "-600px" }}
+                            animate={isEducationRefInView ? { x: "0" } : {}}
+                            className=""
+                        >
+                            {/* EXPERIENCE LIST ITEM */}
+                            <div className="flex justify-between h-48">
+                                {/* LEFT */}
+                                <div className="w-1/3 ">
+                                    {/* JOB TITLE */}
+                                    <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                        Senior JavaScript Engineer
+                                    </div>
+                                    {/* JOB DESC */}
+                                    <div className="p-3 text-sm italic">
+                                        I led web development, offering expertise in JavaScript
+                                        frameworks.{" "}
+                                    </div>
+                                    {/* JOB DATE */}
+                                    <div className="p-3 text-blue-400 text-sm font-semibold">
+                                        2024 - Present
+                                    </div>
+                                    {/* JOB COMPANY */}
+                                    <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                                        Apple
+                                    </div>
+                                </div>
+                                {/* CENTER */}
+                                <div className="w-1/6 flex justify-center">
+                                    {/* LINE */}
+                                    <div className="w-1 h-full bg-gray-600 rounded relative">
+                                        {/* LINE CIRCLE */}
+                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-blue-400 bg-white -left-2"></div>
+                                    </div>
+                                </div>
+                                {/* RIGHT */}
+                                <div className="w-1/3 "></div>
+                            </div>
+                            {/* EXPERIENCE LIST ITEM */}
+                            <div className="flex justify-between h-48">
+                                {/* LEFT */}
+                                <div className="w-1/3 "></div>
+                                {/* CENTER */}
+                                <div className="w-1/6 flex justify-center">
+                                    {/* LINE */}
+                                    <div className="w-1 h-full bg-gray-600 rounded relative">
+                                        {/* LINE CIRCLE */}
+                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-blue-400 bg-white -left-2"></div>
+                                    </div>
+                                </div>
+                                {/* RIGHT */}
+                                <div className="w-1/3 ">
+                                    {/* JOB TITLE */}
+                                    <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                        Senior React Developer
+                                    </div>
+                                    {/* JOB DESC */}
+                                    <div className="p-3 text-sm italic">
+                                        I spearheaded React-based application development,
+                                        leveraging advanced skills.{" "}
+                                    </div>
+                                    {/* JOB DATE */}
+                                    <div className="p-3 text-blue-400 text-sm font-semibold">
+                                        2019 - 2024{" "}
+                                    </div>
+                                    {/* JOB COMPANY */}
+                                    <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                                        Microsoft
+                                    </div>
+                                </div>
+                            </div>
+                            {/* EXPERIENCE LIST ITEM */}
+                            <div className="flex justify-between h-48">
+                                {/* LEFT */}
+                                <div className="w-1/3 ">
+                                    {/* JOB TITLE */}
+                                    <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                        Freelancer{" "}
+                                    </div>
+                                    {/* JOB DESC */}
+                                    <div className="p-3 text-sm italic">
+                                        I provided web solutions, applying a range of technologies
+                                        to address client requirements.{" "}
+                                    </div>
+                                    {/* JOB DATE */}
+                                    <div className="p-3 text-blue-400text-sm font-semibold">
+                                        2010 - 2019{" "}
+                                    </div>
+                                </div>
+                                {/* CENTER */}
+                                <div className="w-1/6 flex justify-center">
+                                    {/* LINE */}
+                                    <div className="w-1 h-full bg-gray-600 rounded relative">
+                                        {/* LINE CIRCLE */}
+                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-blue-400 bg-white -left-2"></div>
+                                    </div>
+                                </div>
+                                {/* RIGHT */}
+                                <div className="w-1/3 "></div>
+                            </div>
+
+                        </motion.div>
+
+
+                    </div>
 
 
 
 
                     {/* EXPERIENCE CONTAINER */}
-                    <div
-                        className="flex flex-col gap-12 justify-center pb-48"
-                        ref={experienceRef}
+                    <div className="flex flex-col gap-12 justify-center pb-48" ref={experienceRef}
                     >
                         {/* EXPERIENCE TITLE */}
                         <motion.h1
@@ -329,33 +445,6 @@ const AboutPage = () => {
 
                     </div>
 
-
-                    {/**test */}
-                    <div>
-
-                        <motion.svg
-                            initial={{ opacity: 0.2, y: 0 }}
-                            animate={{ opacity: 1, y: "10px" }}
-                            transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={50}
-                            height={50}
-                        >
-                            <path
-                                d="M5 15C5 16.8565 5.73754 18.6371 7.05029 19.9498C8.36305 21.2626 10.1435 21.9999 12 21.9999C13.8565 21.9999 15.637 21.2626 16.9498 19.9498C18.2625 18.6371 19 16.8565 19 15V9C19 7.14348 18.2625 5.36305 16.9498 4.05029C15.637 2.73754 13.8565 2 12 2C10.1435 2 8.36305 2.73754 7.05029 4.05029C5.73754 5.36305 5 7.14348 5 9V15Z"
-                                stroke="#000000"
-                                strokeWidth="1"
-                            ></path>
-                            <path d="M12 6V14" stroke="#000000" strokeWidth="1"></path>
-                            <path
-                                d="M15 11L12 14L9 11"
-                                stroke="#000000"
-                                strokeWidth="1"
-                            ></path>
-                        </motion.svg>
-                    </div>
                 </div>
 
                 {/* SVG CONTAINER */}
