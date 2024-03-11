@@ -15,11 +15,24 @@ const Homepage = () => {
     >
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
-        <div
-
-          className="h-1/2 lg:h-full lg:w-1/2 relative">
-          <Image src="/hero.png" alt="" fill className="object-contain" />
-        </div>
+        <motion.div
+          initial={{ opacity: 0, scale: 2 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 2,
+            delay: 0.8,
+            ease: [0, 0.71, 0.2, 1.01]
+          }}
+          className="h-1/2 lg:h-full lg:w-1/2 relative"
+        >
+          <img
+            src="/huyen.png"
+            alt=""
+            width={600}
+            height={600}
+            className="w-35 h-35 rounded-full object-cover"
+          />
+        </motion.div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
@@ -44,6 +57,9 @@ const Homepage = () => {
             </button>
           </div>
         </div>
+
+
+
       </div>
     </motion.div>
   );
