@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-//import Link from "next/link";
+import Link from "next/link";
 
 const Homepage = () => {
   return (
@@ -23,10 +23,10 @@ const Homepage = () => {
             delay: 0.8,
             ease: [0, 0.71, 0.2, 1.01]
           }}
-          className="h-1/2 lg:h-full lg:w-1/2 relative"
+          className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
         >
           <img
-            src="/hero.png"
+            src="/mygirl.png"
             alt=""
 
             className="w-35 h-35 rounded-full object-cover"
@@ -47,13 +47,15 @@ const Homepage = () => {
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
-            <button
+
+
+            <Link href="/portfolio"> <button
               href="/portfolio " className="p-4 rounded-lg ring-1 ring-black bg-black text-white hover:bg-white hover:text-black">
               View My Work
-            </button>
-            <button href="/contact " className="p-4 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white">
+            </button></Link>
+            <Link href="/contact">  <button href="/contact " className="p-4 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white">
               Contact Me
-            </button>
+            </button></Link>
           </div>
         </div>
 
