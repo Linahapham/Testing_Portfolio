@@ -26,10 +26,9 @@ const Homepage = () => {
           className="h-1/2 lg:h-full lg:w-1/2 relative"
         >
           <img
-            src="/huyen.png"
+            src="/hero.png"
             alt=""
-            width={600}
-            height={600}
+
             className="w-35 h-35 rounded-full object-cover"
           />
         </motion.div>
