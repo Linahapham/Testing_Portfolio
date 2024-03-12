@@ -1,6 +1,6 @@
 
 
-
+Hello everyone. I'm Huyen Nguyen. It's my portfolio following Lama Dev https://www.youtube.com/watch?v=DJaZUFK8Kv4&t=6252s I downloaded starter github reposibity and followed the video and custom to complete my portfolio.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

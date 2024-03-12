@@ -227,23 +227,27 @@ const AboutPage = () => {
                                 {/* LEFT */}
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
-                                    <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                    <div className=" p-3 font-semibold rounded-b-lg rounded-s-lg">
                                         Graphic & Web Design Studio
                                     </div>
-
-
-
+                                    <div className=" p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                        Senior React Developer
+                                    </div>
                                 </div>
                                 {/* CENTER */}
                                 <div className="w-1/6 flex justify-center">
                                     {/* LINE */}
-                                    <div className="w-1 h-full bg-gray-600 rounded relative">
+                                    <div className="w-1 h-full bg-blue-300 rounded relative">
                                         {/* LINE CIRCLE */}
                                         <div className="absolute w-5 h-5 rounded-full ring-4 ring-blue-400 bg-white -left-2"></div>
                                     </div>
                                 </div>
                                 {/* RIGHT */}
-                                <div className="w-1/3 "></div>
+                                <div className="w-1/3 ">
+                                    <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                        Graphic & Web Design Studio
+                                    </div>
+                                </div>
                             </div>
                             {/* EXPERIENCE LIST ITEM */}
                             <div className="flex justify-between h-48">
@@ -306,6 +310,39 @@ const AboutPage = () => {
                                 </div>
                                 {/* RIGHT */}
                                 <div className="w-1/3 "></div>
+                            </div>
+                            {/* EXPERIENCE LIST ITEM */}
+                            <div className="flex justify-between h-48">
+                                {/* LEFT */}
+                                <div className="w-1/3 "></div>
+                                {/* CENTER */}
+                                <div className="w-1/6 flex justify-center">
+                                    {/* LINE */}
+                                    <div className="w-1 h-full bg-gray-600 rounded relative">
+                                        {/* LINE CIRCLE */}
+                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-blue-400 bg-white -left-2"></div>
+                                    </div>
+                                </div>
+                                {/* RIGHT */}
+                                <div className="w-1/3 ">
+                                    {/* JOB TITLE */}
+                                    <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                        Senior React Developer
+                                    </div>
+                                    {/* JOB DESC */}
+                                    <div className="p-3 text-sm italic">
+                                        I spearheaded React-based application development,
+                                        leveraging advanced skills.{" "}
+                                    </div>
+                                    {/* JOB DATE */}
+                                    <div className="p-3 text-blue-400 text-sm font-semibold">
+                                        2019 - 2024{" "}
+                                    </div>
+                                    {/* JOB COMPANY */}
+                                    <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                                        Microsoft
+                                    </div>
+                                </div>
                             </div>
 
                         </motion.div>
