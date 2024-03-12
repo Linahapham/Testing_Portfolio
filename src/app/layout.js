@@ -13,6 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <title>Huyen Nguyen</title>
       <body className={inter.className}>
         <TransitionProvider>{children}</TransitionProvider>
 
