@@ -223,7 +223,7 @@ const AboutPage = () => {
                             className=""
                         >
                             {/* EXPERIENCE LIST ITEM */}
-                            <div className="flex justify-between h-48">
+                            <div className="flex justify-between h-40">
                                 {/* LEFT */}
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
@@ -231,7 +231,7 @@ const AboutPage = () => {
                                         Graphic & Web Design Studio
                                     </div>
                                     <div className=" p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Senior React Developer
+                                        Introduction to Creative Coding
                                     </div>
                                 </div>
                                 {/* CENTER */}
@@ -244,9 +244,13 @@ const AboutPage = () => {
                                 </div>
                                 {/* RIGHT */}
                                 <div className="w-1/3 ">
-                                    <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Graphic & Web Design Studio
+                                    <div className=" p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                        Media Studio
                                     </div>
+                                    <div className=" p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                        Principles of 3D Environments.
+                                    </div>
+
                                 </div>
                             </div>
                             {/* EXPERIENCE LIST ITEM */}
