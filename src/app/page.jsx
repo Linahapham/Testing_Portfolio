@@ -1,8 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, useInView, useScroll } from "framer-motion";
 import Link from "next/link";
+import { useRef } from "react";
 
 const Homepage = () => {
   return (
@@ -16,12 +17,17 @@ const Homepage = () => {
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <motion.div
-          initial={{ opacity: 0, scale: 2 }}
-          animate={{ opacity: 1, scale: 1 }}
+          animate={{
+            //scale: [1, 2, 2, 1, 1],
+            rotate: [0, 45, 45, -45, 0],
+            borderRadius: ["0%", "0%", "50%", "50%", "0%"]
+          }}
           transition={{
             duration: 2,
-            delay: 0.8,
-            ease: [0, 0.71, 0.2, 1.01]
+            ease: "easeInOut",
+            times: [0, 0.2, 0.5, 0.8, 1],
+            //repeat: Infinity,
+            repeatDelay: 0.5
           }}
           className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
         >
@@ -29,7 +35,7 @@ const Homepage = () => {
             src="/mygirl.png"
             alt=""
 
-            className="w-35 h-35 rounded-full object-cover"
+            className="w-35 h-35 rounded-full fill object-contain "
           />
         </motion.div>
         {/* TEXT CONTAINER */}
@@ -50,10 +56,10 @@ const Homepage = () => {
 
 
             <Link href="/portfolio"> <button
-              href="/portfolio " className="p-4 rounded-lg ring-1 ring-black bg-black text-white hover:bg-white hover:text-black">
+              className="p-4 rounded-lg ring-1 ring-black bg-black text-white hover:bg-white hover:text-black">
               View My Work
             </button></Link>
-            <Link href="/contact">  <button href="/contact " className="p-4 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white">
+            <Link href="/contact">  <button className="p-4 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white">
               Contact Me
             </button></Link>
           </div>

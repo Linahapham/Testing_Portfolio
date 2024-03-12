@@ -3,6 +3,7 @@ import Brain from "../components/brain";
 import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
+import Link from 'next/link'
 
 const AboutPage = () => {
     const containerRef = useRef();
@@ -55,10 +56,10 @@ const AboutPage = () => {
                         <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
                         {/* BIOGRAPHY DESC */}
                         <p className="text-lg">
-                            Hello everyone, my name is HUYEN NGUYEN or you can call me LINA. I am a junior Front-End Developer (web & mobile apps). I have successfully launched and sold an online business. I specialize in website and app development in the bike rental and food delivery sectors. I consider myself to have a strong work ethic and a passion for technology, as demonstrated through my self-learning experiences.
+                            Hello everyone, my name is <span className="bg-black text-white rounded text-bold"> HUYEN NGUYEN</span> or you can call me LINA. I am a junior Front-End Developer (web & mobile apps). I have successfully launched and sold an online business. I specialize in website and app development in the bike rental and food delivery sectors. I consider myself to have a strong work ethic and a passion for technology, as demonstrated through my self-learning experiences.
                         </p>
 
-                        <p className="text-lg ">
+                        <p className="text-xl ">
                             My obsession is to deliver a digital experience that not only serves a great purpose, but gives your business an unfair advantage.
                         </p>
                         {/* BIOGRAPHY QUOTE */}
@@ -205,16 +206,15 @@ const AboutPage = () => {
                     </div>
 
                     {/* education CONTAINER */}
-                    <div className="flex flex-col gap-12 justify-center pb-48" ref={educationRef}
+                    <div className="flex flex-col gap-12 justify-center" ref={educationRef}
                     >
-                        {/* EXPERIENCE TITLE */}
+                        {/* course TITLE */}
                         <motion.h1
                             initial={{ x: "-600px" }}
                             animate={isEducationRefInView ? { x: "0" } : {}}
                             transition={{ delay: 0.2 }}
                             className="font-bold text-2xl"
-                        >
-                            EDUCATION
+                        >Bachelor of Science (B.Sc.) in Digital Media
                         </motion.h1>
                         {/* EXPERIENCE LIST */}
                         <motion.div
@@ -228,21 +228,11 @@ const AboutPage = () => {
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
                                     <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Senior JavaScript Engineer
+                                        Graphic & Web Design Studio
                                     </div>
-                                    {/* JOB DESC */}
-                                    <div className="p-3 text-sm italic">
-                                        I led web development, offering expertise in JavaScript
-                                        frameworks.{" "}
-                                    </div>
-                                    {/* JOB DATE */}
-                                    <div className="p-3 text-blue-400 text-sm font-semibold">
-                                        2024 - Present
-                                    </div>
-                                    {/* JOB COMPANY */}
-                                    <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                                        Apple
-                                    </div>
+
+
+
                                 </div>
                                 {/* CENTER */}
                                 <div className="w-1/6 flex justify-center">
@@ -345,12 +335,8 @@ const AboutPage = () => {
 
 
                     </div>
-
-
-
-
                     {/* EXPERIENCE CONTAINER */}
-                    <div className="flex flex-col gap-12 justify-center pb-48" ref={experienceRef}
+                    <div className="flex flex-col gap-12 justify-center" ref={experienceRef}
                     >
                         {/* EXPERIENCE TITLE */}
                         <motion.h1
@@ -359,7 +345,7 @@ const AboutPage = () => {
                             transition={{ delay: 0.2 }}
                             className="font-bold text-2xl"
                         >
-                            EDUCATION
+                            EXPERIENCE
                         </motion.h1>
                         {/* EXPERIENCE LIST */}
                         <motion.div
@@ -464,9 +450,44 @@ const AboutPage = () => {
                             </div>
 
                         </motion.div>
+                        <motion.svg
+                            initial={{ opacity: 0.2, y: 0 }}
+                            animate={{ opacity: 1, y: "10px" }}
+                            transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={50}
+                            height={50}
+                        >
+                            <path
+                                d="M5 15C5 16.8565 5.73754 18.6371 7.05029 19.9498C8.36305 21.2626 10.1435 21.9999 12 21.9999C13.8565 21.9999 15.637 21.2626 16.9498 19.9498C18.2625 18.6371 19 16.8565 19 15V9C19 7.14348 18.2625 5.36305 16.9498 4.05029C15.637 2.73754 13.8565 2 12 2C10.1435 2 8.36305 2.73754 7.05029 4.05029C5.73754 5.36305 5 7.14348 5 9V15Z"
+                                stroke="#000000"
+                                strokeWidth="1"
+                            ></path>
+                            <path d="M12 6V14" stroke="#000000" strokeWidth="1"></path>
+                            <path
+                                d="M15 11L12 14L9 11"
+                                stroke="#000000"
+                                strokeWidth="1"
+                            ></path>
+                        </motion.svg>
+
 
 
                     </div>
+
+                    {/*CV*/}
+                    <div className="flex flex-col gap-12 justify-center pb-12">
+                        <h1 className="font-bold text-2xl">
+                            View Resume'
+                        </h1>
+
+                        <Link href="/about"><button className="p-4 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white">
+                            Download My Resume'
+                        </button></Link>
+                    </div>
+
 
                 </div>
 

@@ -26,7 +26,7 @@ const items = [
     {
         id: 3,
         color: "from-violet-300 to-purple-300",
-        title: "Vanilla Book App",
+        title: "VOICE ASSISTANT SERVICE",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
         img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
         link: "https://lama.dev",
@@ -35,7 +35,7 @@ const items = [
     {
         id: 4,
         color: "from-purple-300 to-red-300",
-        title: "Spotify Music App",
+        title: "DESIGN SOLUTION",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
         img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         link: "https://lama.dev",
@@ -44,7 +44,7 @@ const items = [
     {
         id: 5,
         color: "from-red-300 to-yellow-300",
-        title: "Spotify Music App",
+        title: "POSH NAILS WEBSITE",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
         img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         link: "https://lama.dev",
@@ -86,12 +86,12 @@ const PortfolioPage = () => {
                     </motion.h1>
 
                 </div>
-                <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden">
+                <div className="sticky top-0 flex h-screen gap-4 overflow-hidden">
                     <motion.div style={{ x }} className="flex">
-                        <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />
+                        <div className="h-screen w-screen flex bg-gradient-to-r from-purple-300 to-red-300" />
                         {items.map((item) => (
                             <div
-                                className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
+                                className={`h-screen w-screen flex items-center  justify-center bg-gradient-to-r ${item.color}`}
                                 key={item.id}
                             >
                                 <div className="flex flex-col gap-8 text-white">
@@ -122,6 +122,21 @@ const PortfolioPage = () => {
                     </motion.div>
                 </div>
             </div>
+            {/*SELECTED PROJECT */}
+            <div className="w-screen h-screen flex flex-col gap-12 items-center justify-center text-center">
+                <h1 className="text-6xl">Do you have a project?</h1>
+
+                <div>
+
+                </div>
+
+                <div className="relative ">
+
+
+                </div>
+            </div>
+
+            {/*Do you have project */}
             <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
                 <h1 className="text-8xl">Do you have a project?</h1>
                 <div className="relative">
@@ -156,7 +171,7 @@ const PortfolioPage = () => {
                 <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">GET IN TOUCH</h1>
 
             </div>
-        </motion.div>
+        </motion.div >
     );
 };
 
