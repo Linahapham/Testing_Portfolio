@@ -521,11 +521,11 @@ const AboutPage = () => {
                     {/*CV*/}
                     <div className="flex flex-col gap-12 justify-center pb-12">
                         <h1 className="font-bold text-2xl">
-                            View Resume'
+                            View Resume&apos;
                         </h1>
 
                         <Link href="/about"><button className="p-4 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white">
-                            Download My Resume'
+                            Download My Resume&apos;
                         </button></Link>
                     </div>
 
