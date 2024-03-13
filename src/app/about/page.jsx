@@ -12,13 +12,13 @@ const AboutPage = () => {
 
     const skillRef = useRef();
     //const isSkillRefInView1 = useInView(skillRef, { once: true });
-    const isSkillRefInView = useInView(skillRef, { margin: "-80px" });
+    const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
 
     const experienceRef = useRef();
-    const isExperienceRefInView = useInView(experienceRef, { margin: "-80px" });
+    const isExperienceRefInView = useInView(experienceRef, { margin: "-100px" });
 
     const educationRef = useRef();
-    const isEducationRefInView = useInView(educationRef, { margin: "-80px" });
+    const isEducationRefInView = useInView(educationRef, { margin: "-100px" });
 
 
     return (

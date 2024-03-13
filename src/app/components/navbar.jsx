@@ -100,7 +100,7 @@ const Navbar = () => {
 
                 </Link>
                 <Link href="#">
-                    <Image src="/github.png" alt="" width={24} height={24} />
+                    <Image src="/behance.png" alt="" width={24} height={24} />
 
                 </Link>
             </div>

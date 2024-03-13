@@ -7,8 +7,8 @@ import { useRef } from "react";
 const items = [
     {
         id: 1,
-        color: "from-red-300 to-blue-300",
-        title: "WEB DESIGN",
+        //color: "from-red-300 to-blue-300",
+        title: "Mobile",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
         img: "/beproductive.png",
         link: "https://lama.dev",
@@ -16,7 +16,7 @@ const items = [
     },
     {
         id: 2,
-        color: "from-blue-300 to-violet-300",
+        //color: "from-blue-300 to-violet-300",
         title: "UX DESIGN",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
         img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
@@ -25,8 +25,8 @@ const items = [
     },
     {
         id: 3,
-        color: "from-violet-300 to-purple-300",
-        title: "VOICE ASSISTANT SERVICE",
+        //color: "from-violet-300 to-purple-300",
+        title: "BeProductive ",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
         img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
         link: "https://lama.dev",
@@ -34,7 +34,7 @@ const items = [
     },
     {
         id: 4,
-        color: "from-purple-300 to-red-300",
+        //color: "from-purple-300 to-red-300",
         title: "DESIGN SOLUTION",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
         img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -43,7 +43,7 @@ const items = [
     },
     {
         id: 5,
-        color: "from-red-300 to-yellow-300",
+        //color: "from-red-300 to-yellow-300",
         title: "POSH NAILS WEBSITE",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
         img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -69,8 +69,8 @@ const PortfolioPage = () => {
                 <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
                     <motion.h1
                         animate={{
-                            scale: [1, 2, 2, 1, 1],
-                            rotate: [0, 0, 180, 180, 0],
+                            scale: [1, 2, 1, 1, 1],
+                            //rotate: [0, 0, 180, 180, 0],
                             borderRadius: ["0%", "0%", "50%", "50%", "0%"]
                         }}
                         transition={{
@@ -82,20 +82,23 @@ const PortfolioPage = () => {
                         }}
 
                         className="">
-                        My Works
+                        Huyen@Projects
                     </motion.h1>
+                    <p>
+
+                    </p>
 
                 </div>
                 <div className="sticky top-0 flex h-screen gap-4 overflow-hidden">
                     <motion.div style={{ x }} className="flex">
-                        <div className="h-screen w-screen flex bg-gradient-to-r from-purple-300 to-red-300" />
+                        <div className="h-screen w-screen flex bg-gradient-to-b from-red-100 to-blue-100" />
                         {items.map((item) => (
                             <div
-                                className={`h-screen w-screen flex items-center  justify-center bg-gradient-to-r ${item.color}`}
+                                className={`h-screen w-screen flex items-center  justify-center bg-gradient-to-b from-red-100 to-blue-100`}
                                 key={item.id}
                             >
-                                <div className="flex flex-col gap-8 text-white">
-                                    <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
+                                <div className="flex flex-col gap-8 text-black">
+                                    <h1 className="text-xl font-bold md:text-2xl lg:text-4xl xl:text-6xl">
                                         {item.title}
                                     </h1>
                                     <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">

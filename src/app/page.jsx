@@ -35,7 +35,7 @@ const Homepage = () => {
             src="/mygirl.png"
             alt=""
 
-            className="w-35 h-35 rounded-full fill object-contain "
+            className="w-full h-auto lg:w-35 lg:h-35 rounded-full object-contain"
           />
         </motion.div>
         {/* TEXT CONTAINER */}
@@ -46,20 +46,17 @@ const Homepage = () => {
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
-            Welcome to my digital canvas, where innovation and creativity
-            converge. With a keen eye for aesthetics and a mastery of code, my
-            portfolio showcases a diverse collection of projects that reflect my
-            commitment to excellence.
+            Hello and welcome to my portfolio! Dive into a world where creativity thrives and innovation flourishes. Explore the diverse range of projects that reflect my passion for design and dedication to excellence. Enjoy your journey through my digital showcase!
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
 
 
             <Link href="/portfolio"> <button
-              className="p-4 rounded-lg ring-1 ring-black bg-black text-white hover:bg-white hover:text-black">
+              className="text-wrap p-4 rounded-lg ring-1 ring-black bg-black text-white hover:bg-white hover:text-black">
               View My Work
             </button></Link>
-            <Link href="/contact">  <button className="p-4 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white">
+            <Link href="/contact">  <button className="text-wrap p-4 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white">
               Contact Me
             </button></Link>
           </div>
