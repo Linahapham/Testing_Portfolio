@@ -127,35 +127,63 @@ const PortfolioPage = () => {
             </div>
             {/*SELECTED PROJECT */}
             <div className="h-full flex flex-col-3 lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 bg-gradient-to-b from-blue-100 to-yellow-100 p-4 gap-8">
+                <div className="flex flex-col gap-12 items-center justify-center ">
+                    <h1 className="text-xl font-bold md:text-2xl lg:text-4xl xl:text-5xl">
+                        Discover previous projects!
+                    </h1>
+                    <div className="flex flex-row gap-4">
+                        {/* IMAGE CONTAINER */}
+                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
+                        >
+                            <img
+                                src="/beproductive.png"
+                                alt="" className="lg:w-35 lg:h-35  object-contain"
+                            />
 
-                <div className="flex gap-4">
-                    {/* IMAGE CONTAINER */}
-                    <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
-                    >
-                        <img
-                            src="/beproductive.png"
-                            alt="" className="lg:w-35 lg:h-35  object-contain"
-                        />
+                            <p className="italic text-sm items-center justify-center p-4 ">  BeProductive is an Android application developed using the Kotlin programming language. Designed and developed as part of a mobile application module, it aims to enhance productivity by offering intuitive task management and scheduling features. Are you curious about how it all comes together? ", </p>
+                        </div>
+                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center  justify-between"
+                        >
+                            <img
+                                src="/beproductive.png"
+                                alt="" className="lg:w-35 lg:h-35  object-contain"
+                            />
+                        </div>
+                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
+                        >
+                            <img
+                                src="/beproductive.png"
+                                alt="" className="lg:w-35 lg:h-35  object-contain"
+                            />
+                        </div>
                     </div>
-                    <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
-                    >
-                        <img
-                            src="/beproductive.png"
-                            alt="" className="lg:w-35 lg:h-35  object-contain"
-                        />
+
+                    <div className="flex flex-row gap-4">
+                        {/* IMAGE CONTAINER */}
+                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
+                        >
+                            <img
+                                src="/beproductive.png"
+                                alt="" className="lg:w-35 lg:h-35  object-contain"
+                            />
+                        </div>
+                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
+                        >
+                            <img
+                                src="/beproductive.png"
+                                alt="" className="lg:w-35 lg:h-35  object-contain"
+                            />
+                        </div>
+                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
+                        >
+                            <img
+                                src="/beproductive.png"
+                                alt="" className="lg:w-35 lg:h-35  object-contain"
+                            />
+                        </div>
                     </div>
-                    <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
-                    >
-                        <img
-                            src="/beproductive.png"
-                            alt="" className="lg:w-35 lg:h-35  object-contain"
-                        />
-                    </div>
-
-
-
-
                 </div>
+
 
             </div>
 
