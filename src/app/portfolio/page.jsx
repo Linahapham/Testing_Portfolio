@@ -50,6 +50,51 @@ const items = [
         link: "https://lama.dev",
         link2: "http://localhost:3000/portfolio",
     },
+    {
+        id: 6,
+        //color: "from-red-300 to-yellow-300",
+        title: "POSH NAILS WEBSITE",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+        img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        link: "https://lama.dev",
+        link2: "http://localhost:3000/portfolio",
+    },
+    {
+        id: 7,
+        //color: "from-red-300 to-yellow-300",
+        title: "Are you okay?",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+        img: "/areyouokay.png",
+        link: "https://lama.dev",
+        link2: "http://localhost:3000/portfolio",
+    },
+    {
+        id: 8,
+        //color: "from-red-300 to-yellow-300",
+        title: "BikePal",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+        img: "/bikepal.png",
+        link: "https://lama.dev",
+        link2: "http://localhost:3000/portfolio",
+    },
+    {
+        id: 9,
+        //color: "from-red-300 to-yellow-300",
+        title: "Clo-CloDry",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+        img: "/cloclodry.png",
+        link: "https://lama.dev",
+        link2: "http://localhost:3000/portfolio",
+    },
+    {
+        id: 10,
+        //color: "from-red-300 to-yellow-300",
+        title: "Clo-CloDry",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+        img: "/cloclodry.png",
+        link: "https://t47-nguyen.github.io/Clo-CloDry/",
+        link2: "https://github.com/T47-Nguyen/Clo-CloDry.git",
+    },
 ];
 
 const PortfolioPage = () => {
@@ -124,143 +169,6 @@ const PortfolioPage = () => {
                         ))}
                     </motion.div>
                 </div>
-            </div>
-            {/*SELECTED PROJECT */}
-            <div className="h-full flex flex-col-3 lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 bg-gradient-to-b from-blue-100 to-yellow-100 p-4 gap-8">
-
-                <div className="flex flex-col gap-12 items-center justify-center ">
-                    <div>
-                        <h1 class="text-xl font-bold md:text-2xl lg:text-4xl xl:text-5xl">  Discover previous projects! </h1>
-                    </div>
-
-
-
-                    <div className="flex flex-row gap-4">
-                        {/* IMAGE CONTAINER */}
-                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
-                        >
-                            <img
-                                src="/landing.png"
-                                alt="" className="lg:w-35 lg:h-35  object-contain"
-                            />
-
-
-                            <div className="flex ">
-                                <Link href="/about" className="flex justify-end">
-                                    <button className="p-2 bg-gradient-to-b  from-red-100 to-blue-100 m-4 rounded">See Demo</button>
-
-                                </Link>
-                                <Link href="/about" className="flex justify-end">
-                                    <button className="p-2 bg-gradient-to-b from-red-100 to-blue-100 text-black m-4 rounded">Github</button>
-
-                                </Link>
-
-                            </div>
-                        </div>
-                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center  justify-between"
-                        >
-                            <img
-                                src="/areyouokay.png"
-                                alt="" className="lg:w-35 lg:h-35  object-contain"
-                            />
-                            <div className="flex ">
-                                <Link href="https://youtu.be/EutHQKlLNeI" className="flex justify-end">
-                                    <button className="p-2 bg-gradient-to-b  from-red-100 to-blue-100 m-4 rounded">Video</button>
-
-                                </Link>
-                                <Link href="/about" className="flex justify-end">
-                                    <button className="p-2 bg-gradient-to-b from-red-100 to-blue-100 text-black m-4 rounded">Github</button>
-
-                                </Link>
-
-                            </div>
-                        </div>
-
-                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
-                        >
-                            <img
-                                src="/beproductive.png"
-                                alt="" className="lg:w-35 lg:h-35  object-contain"
-                            />
-                            <div className="flex ">
-                                <Link href="/about" className="flex justify-end">
-                                    <button className="p-2 bg-gradient-to-b  from-red-100 to-blue-100 m-4 rounded">See Demo</button>
-
-                                </Link>
-                                <Link href="/about" className="flex justify-end">
-                                    <button className="p-2 bg-gradient-to-b from-red-100 to-blue-100 text-black m-4 rounded">Github</button>
-
-                                </Link>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="flex flex-row gap-4">
-                        {/* IMAGE CONTAINER */}
-                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
-                        >
-                            <img
-                                src="/bikepal.png"
-                                alt="" className="lg:w-35 lg:h-35  object-contain"
-                            />
-                            <p className=" text-sm items-center justify-center p-4 ">  BeProductive is an Android application developed using the Kotlin programming language. Designed and developed as part of a mobile application module, it aims to enhance productivity by offering intuitive task management and scheduling features. Are you curious about how it all comes together? ", </p>
-                            <div className="flex ">
-                                <Link href="https://t47-nguyen.github.io/BikePal/index.html" className="flex justify-end">
-                                    <button className="p-2 bg-gradient-to-b  from-red-100 to-blue-100 m-4 rounded">Website</button>
-
-                                </Link>
-                                <Link href="/about" className="flex justify-end">
-                                    <button className="p-2 bg-gradient-to-b from-red-100 to-blue-100 text-black m-4 rounded">Github</button>
-
-                                </Link>
-
-                            </div>
-
-                        </div>
-                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
-                        >
-                            <img
-                                src="/cloclodry.png"
-                                alt="" className="lg:w-35 lg:h-35  object-contain"
-                            />
-                            <p className=" text-sm items-center justify-center p-4 ">Welcome to Clo_CloDry. In here, you have clean clothes and a close-up community. We are passionate about building a community of people over the shared necessity of doing laundry. People gather here to meet together, wash their clothes, get much-needed sustenance, swap stories and build a real community. We've created a laundrette that you'll want to hang out in, and if you've yet to discover this Bristol gem, you've got a treat in store.
-
-                            </p>
-                            <div className="flex ">
-                                <Link href="https://t47-nguyen.github.io/Clo-CloDry/" className="flex justify-end">
-                                    <button className="p-2 bg-gradient-to-b  from-red-100 to-blue-100 m-4 rounded">See Demo</button>
-
-                                </Link>
-                                <Link href="https://github.com/T47-Nguyen/Clo-CloDry.git" className="flex justify-end">
-                                    <button className="p-2 bg-gradient-to-b from-red-100 to-blue-100 text-black m-4 rounded">Github</button>
-
-                                </Link>
-
-                            </div>
-                        </div>
-                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
-                        >
-                            <img
-                                src="/beproductive.png"
-                                alt="" className="lg:w-35 lg:h-35  object-contain"
-                            />
-                            <div className="flex ">
-                                <Link href="/about" className="flex justify-end">
-                                    <button className="p-2 bg-gradient-to-b  from-red-100 to-blue-100 m-4 rounded">See Demo</button>
-
-                                </Link>
-                                <Link href="/about" className="flex justify-end">
-                                    <button className="p-2 bg-gradient-to-b from-red-100 to-blue-100 text-black m-4 rounded">Github</button>
-
-                                </Link>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
 
             {/*Do you have project */}
