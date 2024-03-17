@@ -127,9 +127,13 @@ const PortfolioPage = () => {
             </div>
             {/*SELECTED PROJECT */}
             <div className="h-full flex flex-col-3 lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 bg-gradient-to-b from-blue-100 to-yellow-100 p-4 gap-8">
+
                 <div className="flex flex-col gap-12 items-center justify-center ">
-                    <h1 class="text-xl font-bold md:text-2xl lg:text-4xl xl:text-5xl">  Discover previous projects!
-                    </h1>
+                    <div>
+                        <h1 class="text-xl font-bold md:text-2xl lg:text-4xl xl:text-5xl">  Discover previous projects! </h1>
+                    </div>
+
+
 
                     <div className="flex flex-row gap-4">
                         {/* IMAGE CONTAINER */}
