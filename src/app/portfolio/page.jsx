@@ -8,7 +8,7 @@ const items = [
     {
         id: 1,
         //color: "from-red-300 to-blue-300",
-        title: "Voice Assistant for Online Shopping",
+        title: "Voice Assistant",
         desc: "Say hello to my groundbreaking final project: Voice Assistant Food Shopping. No more scribbling on scraps of paper or fumbling with your phone while navigating the aisles. With Voice Assistant Food Shopping, you can plan meals, track inventory, and even receive personalized recipe suggestions—all through the power of your voice.",
         img: "/beproductive.png",
         link: "https://lama.dev",
@@ -53,9 +53,9 @@ const items = [
     {
         id: 6,
         //color: "from-red-300 to-yellow-300",
-        title: "POSH NAILS WEBSITE",
+        title: "User Experience",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-        img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        img: "/landing.png",
         link: "https://lama.dev",
         link2: "http://localhost:3000/portfolio",
     },
@@ -142,7 +142,7 @@ const PortfolioPage = () => {
                                 className={`h-screen w-screen flex items-center  justify-center bg-gradient-to-b from-red-100 to-blue-100`}
                                 key={item.id}
                             >
-                                <div className="flex flex-col gap-8 text-gray-600">
+                                <div className="flex flex-col gap-8 text-gray-600 items-center justify-center">
                                     <h1 className="text-xl font-bold md:text-2xl lg:text-4xl xl:text-5xl">
                                         {item.title}
                                     </h1>

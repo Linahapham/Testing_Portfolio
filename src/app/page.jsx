@@ -35,7 +35,7 @@ const Homepage = () => {
             src="/mygirl.png"
             alt=""
 
-            className="w-full h-auto lg:w-35 lg:h-35 rounded-full object-contain"
+            className="w-full h-auto max-w-50 max-h-50 mx-auto lg:w-35 lg:h-35 rounded-full object-contain sm:display-none"
           />
         </motion.div>
         {/* TEXT CONTAINER */}
