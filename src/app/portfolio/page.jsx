@@ -19,7 +19,7 @@ const items = [
         //color: "from-blue-300 to-violet-300",
         title: "UX DESIGN",
         desc: "Welcome to the new Citizens Advice Bristol website—a user-friendly hub for community support. Simplified navigation, enhanced search, and tailored resources await. Join us on this journey of empowerment..",
-        img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+        img: "/cabbristol.png",
         link: "https://lama.dev",
         link2: "https://www.behance.net/gallery/193529083/Sustainable-food-choices-for-students",
     },
@@ -81,7 +81,7 @@ const PortfolioPage = () => {
                             repeatDelay: 1
                         }}
 
-                        className="">
+                        className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
                         Huyen@Projects
                     </motion.h1>
                     <p>
@@ -128,33 +128,67 @@ const PortfolioPage = () => {
             {/*SELECTED PROJECT */}
             <div className="h-full flex flex-col-3 lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 bg-gradient-to-b from-blue-100 to-yellow-100 p-4 gap-8">
                 <div className="flex flex-col gap-12 items-center justify-center ">
-                    <h1 className="text-xl font-bold md:text-2xl lg:text-4xl xl:text-5xl">
-                        Discover previous projects!
+                    <h1 class="text-xl font-bold md:text-2xl lg:text-4xl xl:text-5xl">  Discover previous projects!
                     </h1>
+
                     <div className="flex flex-row gap-4">
                         {/* IMAGE CONTAINER */}
                         <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
                         >
                             <img
-                                src="/beproductive.png"
+                                src="/landing.png"
                                 alt="" className="lg:w-35 lg:h-35  object-contain"
                             />
 
-                            <p className="italic text-sm items-center justify-center p-4 ">  BeProductive is an Android application developed using the Kotlin programming language. Designed and developed as part of a mobile application module, it aims to enhance productivity by offering intuitive task management and scheduling features. Are you curious about how it all comes together? ", </p>
+
+                            <div className="flex ">
+                                <Link href="/about" className="flex justify-end">
+                                    <button className="p-2 bg-gradient-to-b  from-red-100 to-blue-100 m-4 rounded">See Demo</button>
+
+                                </Link>
+                                <Link href="/about" className="flex justify-end">
+                                    <button className="p-2 bg-gradient-to-b from-red-100 to-blue-100 text-black m-4 rounded">Github</button>
+
+                                </Link>
+
+                            </div>
                         </div>
                         <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center  justify-between"
                         >
                             <img
-                                src="/beproductive.png"
+                                src="/areyouokay.png"
                                 alt="" className="lg:w-35 lg:h-35  object-contain"
                             />
+                            <div className="flex ">
+                                <Link href="https://youtu.be/EutHQKlLNeI" className="flex justify-end">
+                                    <button className="p-2 bg-gradient-to-b  from-red-100 to-blue-100 m-4 rounded">Video</button>
+
+                                </Link>
+                                <Link href="/about" className="flex justify-end">
+                                    <button className="p-2 bg-gradient-to-b from-red-100 to-blue-100 text-black m-4 rounded">Github</button>
+
+                                </Link>
+
+                            </div>
                         </div>
+
                         <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
                         >
                             <img
                                 src="/beproductive.png"
                                 alt="" className="lg:w-35 lg:h-35  object-contain"
                             />
+                            <div className="flex ">
+                                <Link href="/about" className="flex justify-end">
+                                    <button className="p-2 bg-gradient-to-b  from-red-100 to-blue-100 m-4 rounded">See Demo</button>
+
+                                </Link>
+                                <Link href="/about" className="flex justify-end">
+                                    <button className="p-2 bg-gradient-to-b from-red-100 to-blue-100 text-black m-4 rounded">Github</button>
+
+                                </Link>
+
+                            </div>
                         </div>
                     </div>
 
@@ -163,9 +197,43 @@ const PortfolioPage = () => {
                         <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
                         >
                             <img
-                                src="/beproductive.png"
+                                src="/bikepal.png"
                                 alt="" className="lg:w-35 lg:h-35  object-contain"
                             />
+                            <p className=" text-sm items-center justify-center p-4 ">  BeProductive is an Android application developed using the Kotlin programming language. Designed and developed as part of a mobile application module, it aims to enhance productivity by offering intuitive task management and scheduling features. Are you curious about how it all comes together? ", </p>
+                            <div className="flex ">
+                                <Link href="https://t47-nguyen.github.io/BikePal/index.html" className="flex justify-end">
+                                    <button className="p-2 bg-gradient-to-b  from-red-100 to-blue-100 m-4 rounded">Website</button>
+
+                                </Link>
+                                <Link href="/about" className="flex justify-end">
+                                    <button className="p-2 bg-gradient-to-b from-red-100 to-blue-100 text-black m-4 rounded">Github</button>
+
+                                </Link>
+
+                            </div>
+
+                        </div>
+                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
+                        >
+                            <img
+                                src="/cloclodry.png"
+                                alt="" className="lg:w-35 lg:h-35  object-contain"
+                            />
+                            <p className=" text-sm items-center justify-center p-4 ">Welcome to Clo_CloDry. In here, you have clean clothes and a close-up community. We are passionate about building a community of people over the shared necessity of doing laundry. People gather here to meet together, wash their clothes, get much-needed sustenance, swap stories and build a real community. We've created a laundrette that you'll want to hang out in, and if you've yet to discover this Bristol gem, you've got a treat in store.
+
+                            </p>
+                            <div className="flex ">
+                                <Link href="https://t47-nguyen.github.io/Clo-CloDry/" className="flex justify-end">
+                                    <button className="p-2 bg-gradient-to-b  from-red-100 to-blue-100 m-4 rounded">See Demo</button>
+
+                                </Link>
+                                <Link href="https://github.com/T47-Nguyen/Clo-CloDry.git" className="flex justify-end">
+                                    <button className="p-2 bg-gradient-to-b from-red-100 to-blue-100 text-black m-4 rounded">Github</button>
+
+                                </Link>
+
+                            </div>
                         </div>
                         <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
                         >
@@ -173,13 +241,17 @@ const PortfolioPage = () => {
                                 src="/beproductive.png"
                                 alt="" className="lg:w-35 lg:h-35  object-contain"
                             />
-                        </div>
-                        <div className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
-                        >
-                            <img
-                                src="/beproductive.png"
-                                alt="" className="lg:w-35 lg:h-35  object-contain"
-                            />
+                            <div className="flex ">
+                                <Link href="/about" className="flex justify-end">
+                                    <button className="p-2 bg-gradient-to-b  from-red-100 to-blue-100 m-4 rounded">See Demo</button>
+
+                                </Link>
+                                <Link href="/about" className="flex justify-end">
+                                    <button className="p-2 bg-gradient-to-b from-red-100 to-blue-100 text-black m-4 rounded">Github</button>
+
+                                </Link>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -189,7 +261,7 @@ const PortfolioPage = () => {
 
             {/*Do you have project */}
             <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center bg-gradient-to-b from-yellow-100 to-red-100">
-                <h1 className="text-8xl">Do you have a project?</h1>
+                <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">Do you have a project?</h1>
                 <div className="relative">
                     <motion.svg
                         animate={{ rotate: 360 }}

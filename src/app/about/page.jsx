@@ -75,7 +75,7 @@ const AboutPage = () => {
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
-                                <path d="M66.5 141C66.5 149.389 73.9932 105.216 55.5 77.9999C46.584 64.8787 0.241037 58.1922 2.50001 39C2.85312 36 -0.5 21 12.0556 8.99994C20 4.0555 24.2047 9.5542 30.2222 9.99994M30.2222 9.99994C32.2857 10.1528 28.2655 9.99994 30.2222 9.99994ZM30.2222 9.99994C31.6921 9.99994 37 8.93552 37 12.2222C37 34.162 36 56.0491 36 77.9999C36 103.17 41 128.262 41 153.555C41 171.695 40.137 188.161 36.2223 205.778C35.3614 209.652 32.3151 213.454 28 213C18.5784 212.008 20 189.364 20 184C20 174.303 18.8561 164.105 22.5556 154.944C26.2469 145.804 29.7477 137.151 35.5 129.055C54.219 102.71 81.7252 89.5574 106.778 70.9999C113.85 65.7613 118.018 52.6679 121 44.9999C124.878 35.0278 128.015 25.3043 128.944 14.6111C129.519 8.00884 126 1.99994 118.5 1.99994C114.654 1.99994 110.84 1.15955 107.944 4.0555C104.079 7.92104 101.193 14.616 99 19.6111C80.5903 61.5443 85 108.295 85 153C85 167.176 81.9255 185.566 87.5 198.944C89.7742 204.402 93.5128 215 101 215C108.829 215 112.62 211.516 117.778 205.555C125.793 196.293 133.207 186.119 137.222 174.555C139.974 166.63 141 156.436 141 148C141 146.479 140.207 141.94 141.056 140.667C141.15 140.526 142.911 145.659 143 146C143.733 148.809 144.541 151.575 145 154.444C146.683 164.961 149.671 175.264 151.222 185.778C151.964 190.808 154.156 203 161 203C167.346 203 171.849 194.226 175 189.5C180.609 181.086 186 171.504 186 161.055C186 158.319 183.761 141.406 186 146.444C190.186 155.863 190.588 176.78 195 186.444C202.5 206 208.5 190 218 194.5C220 199.5 237.346 188.2 239 184C241.247 178.296 243.691 172.678 246 167C247.956 162.188 248.822 157.423 250.444 152.555C251.158 150.415 251.129 147.444 252.556 151.111C255.407 158.444 258.035 165.961 264 171.5C265.809 173.18 266.749 175.097 269 176.222C273.427 178.435 275.116 170.742 276.667 167.667C281.692 157.699 285.584 147.464 290.222 137.444C290.98 135.808 291.754 134.196 292.5 132.555C292.585 132.368 293.153 130.436 293.222 130.444C295.513 130.731 294 156.225 294 159.055C294 175.702 286.724 194.683 279.5 209.444C272.301 224.156 264.281 237.803 250.667 247.333C247.024 249.883 237.195 253.034 237 246C236.509 228.314 248.825 216.081 261.167 204.389C272.897 193.276 285.831 184.575 300.5 178.055C313.222 172.401 334.214 173.037 338 156C339.304 150.131 340.514 144.392 334.445 141C332.752 140.054 329.125 137.16 327 138.222C324.98 139.232 323.62 148.086 323 150.222C321.008 157.085 315.03 180.741 324.611 185C334.603 189.441 340.668 176.493 345.556 170.111C350.833 163.22 355.168 156.131 358.778 148.222C359.845 145.884 361.345 140.099 363.222 138.222C363.615 137.83 367.729 151.489 367.945 153C368.198 154.775 367.945 170.652 367.945 172.444C367.945 175.093 368.86 153.445 369 152.5C370.876 139.841 381.475 128.026 392.222 121.778C396.487 119.298 406.18 116.516 409 122C415.365 134.376 411.633 150.523 405.556 162.389C404.367 164.709 401.111 169.603 401.111 172.444C401.111 173.497 416.469 164.356 417.722 163.667C426.809 158.669 434.435 151.696 443.333 146.444C443.513 146.338 448.158 143.684 445.389 144.278C436.047 146.28 426.659 152.158 418.333 156.444C363.483 184.688 310.829 217.56 258.111 249.555C239.401 260.911 220.74 272.883 202.889 285.555C199.629 287.87 194.5 290.758 192.333 294.278C191.612 295.449 197.39 295.003 197.667 295C232.402 294.659 266.321 277.331 297 262.889C377.334 225.071 458.331 188.59 539.333 152.222C576.319 135.616 613.515 119.435 651 104" stroke="black" stroke-width="3" stroke-linecap="round" />
+                                <path d="M66.5 141C66.5 149.389 73.9932 105.216 55.5 77.9999C46.584 64.8787 0.241037 58.1922 2.50001 39C2.85312 36 -0.5 21 12.0556 8.99994C20 4.0555 24.2047 9.5542 30.2222 9.99994M30.2222 9.99994C32.2857 10.1528 28.2655 9.99994 30.2222 9.99994ZM30.2222 9.99994C31.6921 9.99994 37 8.93552 37 12.2222C37 34.162 36 56.0491 36 77.9999C36 103.17 41 128.262 41 153.555C41 171.695 40.137 188.161 36.2223 205.778C35.3614 209.652 32.3151 213.454 28 213C18.5784 212.008 20 189.364 20 184C20 174.303 18.8561 164.105 22.5556 154.944C26.2469 145.804 29.7477 137.151 35.5 129.055C54.219 102.71 81.7252 89.5574 106.778 70.9999C113.85 65.7613 118.018 52.6679 121 44.9999C124.878 35.0278 128.015 25.3043 128.944 14.6111C129.519 8.00884 126 1.99994 118.5 1.99994C114.654 1.99994 110.84 1.15955 107.944 4.0555C104.079 7.92104 101.193 14.616 99 19.6111C80.5903 61.5443 85 108.295 85 153C85 167.176 81.9255 185.566 87.5 198.944C89.7742 204.402 93.5128 215 101 215C108.829 215 112.62 211.516 117.778 205.555C125.793 196.293 133.207 186.119 137.222 174.555C139.974 166.63 141 156.436 141 148C141 146.479 140.207 141.94 141.056 140.667C141.15 140.526 142.911 145.659 143 146C143.733 148.809 144.541 151.575 145 154.444C146.683 164.961 149.671 175.264 151.222 185.778C151.964 190.808 154.156 203 161 203C167.346 203 171.849 194.226 175 189.5C180.609 181.086 186 171.504 186 161.055C186 158.319 183.761 141.406 186 146.444C190.186 155.863 190.588 176.78 195 186.444C202.5 206 208.5 190 218 194.5C220 199.5 237.346 188.2 239 184C241.247 178.296 243.691 172.678 246 167C247.956 162.188 248.822 157.423 250.444 152.555C251.158 150.415 251.129 147.444 252.556 151.111C255.407 158.444 258.035 165.961 264 171.5C265.809 173.18 266.749 175.097 269 176.222C273.427 178.435 275.116 170.742 276.667 167.667C281.692 157.699 285.584 147.464 290.222 137.444C290.98 135.808 291.754 134.196 292.5 132.555C292.585 132.368 293.153 130.436 293.222 130.444C295.513 130.731 294 156.225 294 159.055C294 175.702 286.724 194.683 279.5 209.444C272.301 224.156 264.281 237.803 250.667 247.333C247.024 249.883 237.195 253.034 237 246C236.509 228.314 248.825 216.081 261.167 204.389C272.897 193.276 285.831 184.575 300.5 178.055C313.222 172.401 334.214 173.037 338 156C339.304 150.131 340.514 144.392 334.445 141C332.752 140.054 329.125 137.16 327 138.222C324.98 139.232 323.62 148.086 323 150.222C321.008 157.085 315.03 180.741 324.611 185C334.603 189.441 340.668 176.493 345.556 170.111C350.833 163.22 355.168 156.131 358.778 148.222C359.845 145.884 361.345 140.099 363.222 138.222C363.615 137.83 367.729 151.489 367.945 153C368.198 154.775 367.945 170.652 367.945 172.444C367.945 175.093 368.86 153.445 369 152.5C370.876 139.841 381.475 128.026 392.222 121.778C396.487 119.298 406.18 116.516 409 122C415.365 134.376 411.633 150.523 405.556 162.389C404.367 164.709 401.111 169.603 401.111 172.444C401.111 173.497 416.469 164.356 417.722 163.667C426.809 158.669 434.435 151.696 443.333 146.444C443.513 146.338 448.158 143.684 445.389 144.278C436.047 146.28 426.659 152.158 418.333 156.444C363.483 184.688 310.829 217.56 258.111 249.555C239.401 260.911 220.74 272.883 202.889 285.555C199.629 287.87 194.5 290.758 192.333 294.278C191.612 295.449 197.39 295.003 197.667 295C232.402 294.659 266.321 277.331 297 262.889C377.334 225.071 458.331 188.59 539.333 152.222C576.319 135.616 613.515 119.435 651 104" stroke="black" strokeWidth="3" strokeLinecap="round" />
                             </svg>
                         </div>
                         {/* BIOGRAPHY SCROLL SVG */}
@@ -222,86 +222,47 @@ const AboutPage = () => {
                             animate={isEducationRefInView ? { x: "0" } : {}}
                             className=""
                         >
-                            {/* EXPERIENCE LIST ITEM */}
+                            {/* YEAR 1*/}
                             <div className="flex justify-between h-40">
                                 {/* LEFT */}
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
-                                    <div className=" p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                    <div className=" p-2 font-regular  bg-gradient-to-b from-red-100 to-red-200 rounded-b-lg rounded-s-lg ">
                                         Graphic & Web Design Studio
                                     </div>
-                                    <div className=" p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Introduction to Creative Coding
+                                    <div className="  p-2 font-semibold rounded-b-lg rounded-s-lg">
+                                        Media Studio
                                     </div>
                                 </div>
                                 {/* CENTER */}
                                 <div className="w-1/6 flex justify-center">
                                     {/* LINE */}
-                                    <div className="w-1 h-full bg-blue-300 rounded relative">
+                                    <div className="w-1 h-full bg-gray-600 rounded relative">
                                         {/* LINE CIRCLE */}
-                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-blue-400 bg-white -left-2"></div>
+                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 "></div>
                                     </div>
                                 </div>
                                 {/* RIGHT */}
                                 <div className="w-1/3 ">
-                                    <div className=" p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Media Studio
+                                    <div className=" p-2 font-regular  bg-gradient-to-b from-red-100 to-red-200 rounded-b-lg rounded-s-lg">
+                                        Introduction to Creative Coding
                                     </div>
-                                    <div className=" p-3 font-semibold rounded-b-lg rounded-s-lg">
+                                    <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
                                         Principles of 3D Environments.
                                     </div>
 
                                 </div>
                             </div>
-                            {/* EXPERIENCE LIST ITEM */}
-                            <div className="flex justify-between h-48">
-                                {/* LEFT */}
-                                <div className="w-1/3 "></div>
-                                {/* CENTER */}
-                                <div className="w-1/6 flex justify-center">
-                                    {/* LINE */}
-                                    <div className="w-1 h-full bg-gray-600 rounded relative">
-                                        {/* LINE CIRCLE */}
-                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-blue-400 bg-white -left-2"></div>
-                                    </div>
-                                </div>
-                                {/* RIGHT */}
-                                <div className="w-1/3 ">
-                                    {/* JOB TITLE */}
-                                    <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Senior React Developer
-                                    </div>
-                                    {/* JOB DESC */}
-                                    <div className="p-3 text-sm italic">
-                                        I spearheaded React-based application development,
-                                        leveraging advanced skills.{" "}
-                                    </div>
-                                    {/* JOB DATE */}
-                                    <div className="p-3 text-blue-400 text-sm font-semibold">
-                                        2019 - 2024{" "}
-                                    </div>
-                                    {/* JOB COMPANY */}
-                                    <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                                        Microsoft
-                                    </div>
-                                </div>
-                            </div>
-                            {/* EXPERIENCE LIST ITEM */}
-                            <div className="flex justify-between h-48">
+                            {/* year 2 */}
+                            <div className="flex justify-between h-40">
                                 {/* LEFT */}
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
-                                    <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Freelancer{" "}
+                                    <div className=" p-2 font-regular  bg-gradient-to-b from-red-100 to-red-200 rounded-b-lg rounded-s-lg ">
+                                        User Experience
                                     </div>
-                                    {/* JOB DESC */}
-                                    <div className="p-3 text-sm italic">
-                                        I provided web solutions, applying a range of technologies
-                                        to address client requirements.{" "}
-                                    </div>
-                                    {/* JOB DATE */}
-                                    <div className="p-3 text-blue-400text-sm font-semibold">
-                                        2010 - 2019{" "}
+                                    <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
+                                        Media Production
                                     </div>
                                 </div>
                                 {/* CENTER */}
@@ -309,45 +270,53 @@ const AboutPage = () => {
                                     {/* LINE */}
                                     <div className="w-1 h-full bg-gray-600 rounded relative">
                                         {/* LINE CIRCLE */}
-                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-blue-400 bg-white -left-2"></div>
+                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 "></div>
                                     </div>
                                 </div>
                                 {/* RIGHT */}
-                                <div className="w-1/3 "></div>
+                                <div className="w-1/3 ">
+                                    <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
+                                        Sound Design
+                                    </div>
+                                    <div className=" p-2 font-regular bg-gradient-to-b from-red-100 to-red-200  rounded-b-lg rounded-s-lg ">
+                                        Creative and Physical Computing
+                                    </div>
+
+                                </div>
                             </div>
-                            {/* EXPERIENCE LIST ITEM */}
-                            <div className="flex justify-between h-48">
+                            {/* YEAR 3 */}
+                            <div className="flex justify-between h-40">
                                 {/* LEFT */}
-                                <div className="w-1/3 "></div>
+                                <div className="w-1/3 ">
+                                    {/* JOB TITLE */}
+                                    <div className=" p-2 font-regular  bg-gradient-to-b from-red-100 to-red-200  rounded-b-lg rounded-s-lg ">
+                                        Design Enterprise Studio
+                                    </div>
+                                    <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
+
+                                        Comprehensive & Creative Technologies Project
+                                    </div>
+                                </div>
                                 {/* CENTER */}
                                 <div className="w-1/6 flex justify-center">
                                     {/* LINE */}
                                     <div className="w-1 h-full bg-gray-600 rounded relative">
                                         {/* LINE CIRCLE */}
-                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-blue-400 bg-white -left-2"></div>
+                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 "></div>
                                     </div>
                                 </div>
                                 {/* RIGHT */}
                                 <div className="w-1/3 ">
-                                    {/* JOB TITLE */}
-                                    <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Senior React Developer
+                                    <div className=" p-2 font-regular bg-gradient-to-b from-red-100 to-red-200  rounded-b-lg rounded-s-lg ">
+                                        Interaction Design
                                     </div>
-                                    {/* JOB DESC */}
-                                    <div className="p-3 text-sm italic">
-                                        I spearheaded React-based application development,
-                                        leveraging advanced skills.{" "}
+                                    <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg ">
+                                        Mobile Application
                                     </div>
-                                    {/* JOB DATE */}
-                                    <div className="p-3 text-blue-400 text-sm font-semibold">
-                                        2019 - 2024{" "}
-                                    </div>
-                                    {/* JOB COMPANY */}
-                                    <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                                        Microsoft
-                                    </div>
+
                                 </div>
                             </div>
+
 
                         </motion.div>
 
@@ -400,7 +369,7 @@ const AboutPage = () => {
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
                                     <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Senior JavaScript Engineer
+                                        Junior Front-end Developer
                                     </div>
                                     {/* JOB DESC */}
                                     <div className="p-3 text-sm italic">
@@ -409,12 +378,9 @@ const AboutPage = () => {
                                     </div>
                                     {/* JOB DATE */}
                                     <div className="p-3 text-red-400 text-sm font-semibold">
-                                        2024 - Present
+                                        2021 - Present
                                     </div>
-                                    {/* JOB COMPANY */}
-                                    <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                                        Apple
-                                    </div>
+
                                 </div>
                                 {/* CENTER */}
                                 <div className="w-1/6 flex justify-center">
@@ -443,21 +409,20 @@ const AboutPage = () => {
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
                                     <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Senior React Developer
+                                        UX Designer
                                     </div>
                                     {/* JOB DESC */}
                                     <div className="p-3 text-sm italic">
-                                        I spearheaded React-based application development,
-                                        leveraging advanced skills.{" "}
+                                        I leverage user research, information architecture, and UI design to create seamless user journeys. I collaborate with clients to understand their needs and deliver effective design solutions.{" "}
                                     </div>
                                     {/* JOB DATE */}
                                     <div className="p-3 text-red-400 text-sm font-semibold">
-                                        2019 - 2024{" "}
+                                        2023 - Present{" "}
                                     </div>
-                                    {/* JOB COMPANY */}
+                                    {/* JOB COMPANY
                                     <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
                                         Microsoft
-                                    </div>
+                                    </div>  */}
                                 </div>
                             </div>
                             {/* EXPERIENCE LIST ITEM */}
@@ -475,7 +440,7 @@ const AboutPage = () => {
                                     </div>
                                     {/* JOB DATE */}
                                     <div className="p-3 text-red-400 text-sm font-semibold">
-                                        2010 - 2019{" "}
+                                        2022 - Present{" "}
                                     </div>
                                 </div>
                                 {/* CENTER */}
