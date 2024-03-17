@@ -8,7 +8,7 @@ const items = [
     {
         id: 1,
         //color: "from-red-300 to-blue-300",
-        title: "Design Solution",
+        title: "Voice Assistant for Online Shopping",
         desc: "Say hello to my groundbreaking final project: Voice Assistant Food Shopping. No more scribbling on scraps of paper or fumbling with your phone while navigating the aisles. With Voice Assistant Food Shopping, you can plan meals, track inventory, and even receive personalized recipe suggestions—all through the power of your voice.",
         img: "/beproductive.png",
         link: "https://lama.dev",
@@ -17,7 +17,7 @@ const items = [
     {
         id: 2,
         //color: "from-blue-300 to-violet-300",
-        title: "UX DESIGN",
+        title: "UX-Design",
         desc: "Welcome to the new Citizens Advice Bristol website—a user-friendly hub for community support. Simplified navigation, enhanced search, and tailored resources await. Join us on this journey of empowerment..",
         img: "/cabbristol.png",
         link: "https://lama.dev",
@@ -26,7 +26,7 @@ const items = [
     {
         id: 3,
         //color: "from-violet-300 to-purple-300",
-        title: "BeProductive ",
+        title: "Design Solution ",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
         img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
         link: "https://lama.dev",
@@ -44,8 +44,8 @@ const items = [
     {
         id: 5,
         //color: "from-red-300 to-yellow-300",
-        title: "POSH NAILS WEBSITE",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+        title: "Posh Nails Fishponds",
+        desc: " I'm currently working as a freelancer to design website for a nail salon in Fishpond",
         img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         link: "https://lama.dev",
         link2: "http://localhost:3000/portfolio",
@@ -154,11 +154,11 @@ const PortfolioPage = () => {
                                     </p>
                                     <div className="flex">
                                         <Link href={item.link} className="flex justify-end">
-                                            <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-gradient-to-b from-red-200 to-blue-200 text-gray-600 font-semibold m-4 rounded">See Demo</button>
+                                            <button className="p-2 text-sm md:p-4 md:text-md lg:p-6 lg:text-lg bg-gradient-to-b from-red-200 to-blue-200 text-gray-600 font-semibold m-4 rounded">See Demo</button>
 
                                         </Link>
                                         <Link href={item.link2} className="flex justify-end">
-                                            <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-gradient-to-b from-red-200 to-blue-200 text-gray-600 font-semibold m-4 rounded">Github</button>
+                                            <button className="p-2 text-sm md:p-4 md:text-md lg:p-6 lg:text-lg bg-gradient-to-b from-red-200 to-blue-200 text-gray-600 font-semibold m-4 rounded">Github</button>
 
                                         </Link>
 
