@@ -120,7 +120,7 @@ const AboutPage = () => {
                         <motion.div
                             initial={{ x: "-300px" }}
                             animate={isSkillRefInView ? { x: 0 } : {}}
-                            className="flex "
+                            className="flex flex-col gap-4"
                         >
                             <div className="flex gap-4 flex-wrap">
                                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
@@ -185,25 +185,25 @@ const AboutPage = () => {
                             </div>
 
 
-                            <div className="hidden md:flex gap-4 w-1/3">
+                            <div className="hidden flex-row md:flex gap-4 ">
                                 <Link href="/">
-                                    <Image src="/github.png" alt="" width={28} height={28} />
+                                    <Image src="/github.png" alt="" width={40} height={40} />
 
                                 </Link>
                                 <Link href="#">
-                                    <Image src="/linkedln.png" alt="" width={28} height={28} />
+                                    <Image src="/linkedln.png" alt="" width={40} height={40} />
 
                                 </Link>
                                 <Link href="#">
-                                    <Image src="/insta.png" alt="" width={28} height={28} />
+                                    <Image src="/insta.png" alt="" width={40} height={40} />
 
                                 </Link>
                                 <Link href="#">
-                                    <Image src="/tri.png" alt="" width={28} height={28} />
+                                    <Image src="/tri.png" alt="" width={40} height={40} />
 
                                 </Link>
                                 <Link href="#">
-                                    <Image src="/behance.png" alt="" width={28} height={28} />
+                                    <Image src="/behance.png" alt="" width={40} height={40} />
 
                                 </Link>
                             </div>
@@ -255,7 +255,7 @@ const AboutPage = () => {
                                 {/* LEFT */}
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
-                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-black  hover:text-white  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-gray-600 hover:text-white  rounded-b-lg rounded-s-lg ">
                                         Graphic & Web Design Studio
                                     </div>
                                     <div className="  p-2 font-semibold rounded-b-lg rounded-s-lg">
@@ -272,7 +272,7 @@ const AboutPage = () => {
                                 </div>
                                 {/* RIGHT */}
                                 <div className="w-1/3 ">
-                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-black  hover:text-white  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-gray-600  hover:text-white  rounded-b-lg rounded-s-lg ">
                                         Introduction to Creative Coding
                                     </div>
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
@@ -286,7 +286,7 @@ const AboutPage = () => {
                                 {/* LEFT */}
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
-                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-black  hover:text-white  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-gray-600  bg-gradient-to-b from-gray-100 to-gray-300   hover:text-black  rounded-b-lg rounded-s-lg ">
                                         User Experience
                                     </div>
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
@@ -306,7 +306,7 @@ const AboutPage = () => {
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
                                         Sound Design
                                     </div>
-                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-black  hover:text-white  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-gray-600  hover:text-white  rounded-b-lg rounded-s-lg ">
                                         Creative and Physical Computing
                                     </div>
 
@@ -335,7 +335,7 @@ const AboutPage = () => {
                                 </div>
                                 {/* RIGHT */}
                                 <div className="w-1/3 ">
-                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-black  hover:text-white  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-gray-600  hover:text-white  rounded-b-lg rounded-s-lg ">
                                         Interaction Design
                                     </div>
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg ">
@@ -405,7 +405,7 @@ const AboutPage = () => {
                                         frameworks.{" "}
                                     </div>
                                     {/* JOB DATE */}
-                                    <div className="p-3 text-red-400 text-sm font-semibold">
+                                    <div className="p-3 text-gray-400 text-sm font-semibold">
                                         2021 - Present
                                     </div>
 
@@ -444,7 +444,7 @@ const AboutPage = () => {
                                         I leverage user research, information architecture, and UI design to create seamless user journeys. I collaborate with clients to understand their needs and deliver effective design solutions.{" "}
                                     </div>
                                     {/* JOB DATE */}
-                                    <div className="p-3 text-red-400 text-sm font-semibold">
+                                    <div className="p-3 text-gray-400 text-sm font-semibold">
                                         2023 - Present{" "}
                                     </div>
                                     {/* JOB COMPANY
@@ -467,7 +467,7 @@ const AboutPage = () => {
                                         to address client requirements.{" "}
                                     </div>
                                     {/* JOB DATE */}
-                                    <div className="p-3 text-red-400 text-sm font-semibold">
+                                    <div className="p-3 text-gray-400 text-sm font-semibold">
                                         2022 - Present{" "}
                                     </div>
                                 </div>
@@ -476,7 +476,7 @@ const AboutPage = () => {
                                     {/* LINE */}
                                     <div className="w-1 h-full bg-gray-600 rounded relative">
                                         {/* LINE CIRCLE */}
-                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-black-400 bg-black -left-2"></div>
+                                        <div className="absolute w-5 h-5 rounded-full ring-4  ring-black bg-white -left-2"></div>
                                     </div>
                                 </div>
                                 {/* RIGHT */}
