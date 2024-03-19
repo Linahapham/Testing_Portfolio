@@ -16,19 +16,8 @@ const Homepage = () => {
     >
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 justify-center md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
-        <motion.div
-          animate={{
-            scale: [1, 1.5, 1.5, 1, 1],
-            //rotate: [0, 360],
-            borderRadius: ["0%", "0%", "50%", "50%", "0%"]
-          }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            times: [0, 0.2, 0.5, 0.8, 1],
-            //repeat: Infinity,
-            //epeatDelay: 0,
-          }}
+        <div
+
           className=" h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center pb-4"
         >
           <img
@@ -39,7 +28,7 @@ const Homepage = () => {
             className="w-full h-auto max-w-50 max-h-50 mx-auto lg:w-35 lg:h-35 rounded-full object-contain "
 
           />
-        </motion.div>
+        </div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
