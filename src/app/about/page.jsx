@@ -33,19 +33,21 @@ const AboutPage = () => {
                 {/* TEXT CONTAINER */}
                 <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
                     {/* BIOGRAPHY CONTAINER */}
-                    <div className="flex flex-col gap-12 justify-center">
+                    <div className="flex flex-col gap-12 items-center justify-center">
                         {/* BIOGRAPHY IMAGE */}
                         <motion.div
-                            initial={{ opacity: 0, scale: 5 }}
-                            animate={{ opacity: 1, scale: 1 }}
+                            initial={{ opacity: 0, scale: 2.5, rotate: 45 }}
+                            animate={{ opacity: 1, scale: 2, rotate: 360 }}
                             transition={{
-                                duration: 2,
-                                delay: 0.8,
-                                ease: [0, 0.71, 0.2, 1.01]
+                                duration: 3,
+                                //delay: 0.8,
+                                ease: [0, 0.71, 0.2, 1.01],
+                                repeat: Infinity,
+                                //repeatType: "reverse"
                             }}
                         >
                             <img
-                                src="/huyen.png"
+                                src="/test.png"
                                 alt=""
                                 width={150}
                                 height={150}
@@ -118,66 +120,92 @@ const AboutPage = () => {
                         <motion.div
                             initial={{ x: "-300px" }}
                             animate={isSkillRefInView ? { x: 0 } : {}}
-                            className="flex gap-4 flex-wrap"
+                            className="flex "
                         >
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                WordPress
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                HTML
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                CSS
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Adobe XD
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Figma
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Javascript
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Next.js
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                SCSS
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Tailwind CSS
-                            </div>
+                            <div className="flex gap-4 flex-wrap">
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    WordPress
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    HTML
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    CSS
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    Adobe XD
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    Figma
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    Javascript
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    Next.js
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    SCSS
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    Tailwind CSS
+                                </div>
 
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Node.js
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                React.js
-                            </div>
-
-
-
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Framer Motion
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Three.js
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                WebGL
-                            </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    Node.js
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    React.js
+                                </div>
 
 
 
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                AWS
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    Framer Motion
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    Three.js
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    WebGL
+                                </div>
+
+
+
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    AWS
+                                </div>
+
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    Git
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    Figma
+                                </div>
                             </div>
 
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Git
-                            </div>
-                            <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                Figma
+
+                            <div className="hidden md:flex gap-4 w-1/3">
+                                <Link href="/">
+                                    <Image src="/github.png" alt="" width={28} height={28} />
+
+                                </Link>
+                                <Link href="#">
+                                    <Image src="/linkedln.png" alt="" width={28} height={28} />
+
+                                </Link>
+                                <Link href="#">
+                                    <Image src="/insta.png" alt="" width={28} height={28} />
+
+                                </Link>
+                                <Link href="#">
+                                    <Image src="/tri.png" alt="" width={28} height={28} />
+
+                                </Link>
+                                <Link href="#">
+                                    <Image src="/behance.png" alt="" width={28} height={28} />
+
+                                </Link>
                             </div>
                         </motion.div>
                         {/* SKILL SCROLL SVG */}

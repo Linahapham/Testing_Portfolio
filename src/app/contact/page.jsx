@@ -67,22 +67,24 @@ const ContactPage = () => {
                 <form
                     onSubmit={sendEmail}
                     ref={form}
-                    className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
+                    className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-4 justify-center p-4 sm:p-8 md:p-12 lg:p-16 xl:p-24"
                 >
                     <span>Dear Huyen,</span>
                     <textarea
                         rows={6}
-                        className="bg-transparent border-b-2 border-b-black outline-none resize-none"
+                        className="bg-transparent border-b-2 border-b-black outline-none w-full"
                         name="user_message"
+                        placeholder="Your message..."
                     />
                     <span>My mail address is:</span>
                     <input
                         name="user_email"
-                        type="text"
-                        className="bg-transparent border-b-2 border-b-black outline-none"
+                        type="email"
+                        className="bg-transparent border-b-2 border-b-black outline-none w-full"
+                        placeholder="Your email address..."
                     />
                     <span>Regards</span>
-                    <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4">
+                    <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4 lg:p-6 w-full">
                         Send
                     </button>
                     {success && (
@@ -96,6 +98,7 @@ const ContactPage = () => {
                         </span>
                     )}
                 </form>
+
             </div>
         </motion.div>
     );

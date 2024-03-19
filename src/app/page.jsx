@@ -16,8 +16,16 @@ const Homepage = () => {
     >
       <div className="h-full flex items-center flex-col lg:flex-row px-4 sm:px-8 justify-center md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
-        <div
-
+        <motion.div
+          initial={{ opacity: 0, scale: 2, rotate: 0 }}
+          animate={{ opacity: 1, scale: 1, rotate: 360 }}
+          transition={{
+            duration: 3,
+            delay: 0.8,
+            ease: [0, 0.71, 0.2, 1.01],
+            repeat: Infinity,
+            repeatType: "reverse"
+          }}
           className="  lg:w-1/2 relative flex items-center justify-center pb-4"
         >
           <img
@@ -28,11 +36,12 @@ const Homepage = () => {
             className="w-full h-auto max-w-50  max-h-50 mx-auto lg:w-35 lg:h-35 rounded-full object-contain "
 
           />
-        </div>
+        </motion.div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-4xl md:text-6xl font-bold"
+            style={{ fontFamily: 'Angkor, sans-serif' }}>
             A Front-end Developer & Web Designer.
           </h1>
           {/* DESC */}
