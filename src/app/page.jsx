@@ -14,18 +14,18 @@ const Homepage = () => {
 
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 justify-center md:px-12 lg:px-20 xl:px-48">
+      <div className="h-full flex items-center flex-col lg:flex-row px-4 sm:px-8 justify-center md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <div
 
-          className=" h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center pb-4"
+          className="  lg:w-1/2 relative flex items-center justify-center pb-4"
         >
           <img
             src="/hlogo.png"
             alt=""
             layout="fill"
             objectFit="cover"
-            className="w-full h-auto max-w-50 max-h-50 mx-auto lg:w-35 lg:h-35 rounded-full object-contain "
+            className="w-full h-auto max-w-50  max-h-50 mx-auto lg:w-35 lg:h-35 rounded-full object-contain "
 
           />
         </div>
