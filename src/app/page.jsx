@@ -17,12 +17,12 @@ const Homepage = () => {
       <div className="h-full flex items-center flex-col lg:flex-row px-4 sm:px-8 justify-center md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <motion.div
-          initial={{ opacity: 0, scale: 2, rotate: 0 }}
-          animate={{ opacity: 1, scale: 1, rotate: 360 }}
+          initial={{ opacity: 0, scale: 1.2, rotate: 0 }}
+          animate={{ opacity: 1, scale: 0.8, rotate: 360 }}
           transition={{
             duration: 3,
             delay: 0.8,
-            ease: [0, 0.71, 0.2, 1.01],
+            ease: "easeInOut",
             repeat: Infinity,
             repeatType: "reverse"
           }}
