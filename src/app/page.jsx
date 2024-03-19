@@ -32,7 +32,7 @@ const Homepage = () => {
           className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
         >
           <img
-            src="/mygirl.png"
+            src="/huyen.png"
             alt=""
 
             className="w-full h-auto max-w-50 max-h-50 mx-auto lg:w-35 lg:h-35 rounded-full object-contain sm:display-none"
