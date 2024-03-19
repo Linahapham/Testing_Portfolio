@@ -227,7 +227,7 @@ const AboutPage = () => {
                                 {/* LEFT */}
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
-                                    <div className=" p-2 font-regular  bg-gradient-to-b from-red-100 to-red-200 rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-black  hover:text-white  rounded-b-lg rounded-s-lg ">
                                         Graphic & Web Design Studio
                                     </div>
                                     <div className="  p-2 font-semibold rounded-b-lg rounded-s-lg">
@@ -239,12 +239,12 @@ const AboutPage = () => {
                                     {/* LINE */}
                                     <div className="w-1 h-full bg-gray-600 rounded relative">
                                         {/* LINE CIRCLE */}
-                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 "></div>
+                                        <div className="absolute w-5 h-5 rounded-full ring-4  ring-black bg-white -left-2 "></div>
                                     </div>
                                 </div>
                                 {/* RIGHT */}
                                 <div className="w-1/3 ">
-                                    <div className=" p-2 font-regular  bg-gradient-to-b from-red-100 to-red-200 rounded-b-lg rounded-s-lg">
+                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-black  hover:text-white  rounded-b-lg rounded-s-lg ">
                                         Introduction to Creative Coding
                                     </div>
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
@@ -258,7 +258,7 @@ const AboutPage = () => {
                                 {/* LEFT */}
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
-                                    <div className=" p-2 font-regular  bg-gradient-to-b from-red-100 to-red-200 rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-black  hover:text-white  rounded-b-lg rounded-s-lg ">
                                         User Experience
                                     </div>
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
@@ -270,7 +270,7 @@ const AboutPage = () => {
                                     {/* LINE */}
                                     <div className="w-1 h-full bg-gray-600 rounded relative">
                                         {/* LINE CIRCLE */}
-                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 "></div>
+                                        <div className="absolute w-5 h-5 rounded-full ring-4  ring-black bg-white -left-2 "></div>
                                     </div>
                                 </div>
                                 {/* RIGHT */}
@@ -278,7 +278,7 @@ const AboutPage = () => {
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
                                         Sound Design
                                     </div>
-                                    <div className=" p-2 font-regular bg-gradient-to-b from-red-100 to-red-200  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-black  hover:text-white  rounded-b-lg rounded-s-lg ">
                                         Creative and Physical Computing
                                     </div>
 
@@ -289,7 +289,7 @@ const AboutPage = () => {
                                 {/* LEFT */}
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
-                                    <div className=" p-2 font-regular  bg-gradient-to-b from-red-100 to-red-200  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-gray-600  hover:text-white  rounded-b-lg rounded-s-lg ">
                                         Design Enterprise Studio
                                     </div>
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
@@ -302,12 +302,12 @@ const AboutPage = () => {
                                     {/* LINE */}
                                     <div className="w-1 h-full bg-gray-600 rounded relative">
                                         {/* LINE CIRCLE */}
-                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 "></div>
+                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-black bg-white -left-2 "></div>
                                     </div>
                                 </div>
                                 {/* RIGHT */}
                                 <div className="w-1/3 ">
-                                    <div className=" p-2 font-regular bg-gradient-to-b from-red-100 to-red-200  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-black  hover:text-white  rounded-b-lg rounded-s-lg ">
                                         Interaction Design
                                     </div>
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg ">
@@ -387,7 +387,7 @@ const AboutPage = () => {
                                     {/* LINE */}
                                     <div className="w-1 h-full bg-gray-600 rounded relative">
                                         {/* LINE CIRCLE */}
-                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                                        <div className="absolute w-5 h-5 rounded-full ring-4  ring-black bg-white -left-2"></div>
                                     </div>
                                 </div>
                                 {/* RIGHT */}
@@ -402,7 +402,7 @@ const AboutPage = () => {
                                     {/* LINE */}
                                     <div className="w-1 h-full bg-gray-600 rounded relative">
                                         {/* LINE CIRCLE */}
-                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                                        <div className="absolute w-5 h-5 rounded-full ring-4  ring-black bg-white -left-2"></div>
                                     </div>
                                 </div>
                                 {/* RIGHT */}
@@ -448,7 +448,7 @@ const AboutPage = () => {
                                     {/* LINE */}
                                     <div className="w-1 h-full bg-gray-600 rounded relative">
                                         {/* LINE CIRCLE */}
-                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                                        <div className="absolute w-5 h-5 rounded-full ring-4 ring-black-400 bg-black -left-2"></div>
                                     </div>
                                 </div>
                                 {/* RIGHT */}

@@ -33,7 +33,7 @@ const Homepage = () => {
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
           <h1 className="text-4xl md:text-6xl font-bold">
-            A Junior Front-end Developer & Web Designer.
+            A Front-end Developer & Web Designer.
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
