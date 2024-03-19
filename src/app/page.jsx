@@ -14,12 +14,12 @@ const Homepage = () => {
 
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 justify-center md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <motion.div
           animate={{
-            //scale: [1, 2, 2, 1, 1],
-            rotate: [0, 45, 45, -45, 0],
+            scale: [1, 1.5, 1.5, 1, 1],
+            //rotate: [0, 360],
             borderRadius: ["0%", "0%", "50%", "50%", "0%"]
           }}
           transition={{
@@ -27,15 +27,17 @@ const Homepage = () => {
             ease: "easeInOut",
             times: [0, 0.2, 0.5, 0.8, 1],
             //repeat: Infinity,
-            repeatDelay: 0.5
+            //epeatDelay: 0,
           }}
-          className="h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center"
+          className=" h-1/2 lg:h-full lg:w-1/2 relative items-center justify-center pb-4"
         >
           <img
-            src="/huyen.png"
+            src="/hlogo.png"
             alt=""
+            layout="fill"
+            objectFit="cover"
+            className="w-full h-auto max-w-50 max-h-50 mx-auto lg:w-35 lg:h-35 rounded-full object-contain "
 
-            className="w-full h-auto max-w-50 max-h-50 mx-auto lg:w-35 lg:h-35 rounded-full object-contain sm:display-none"
           />
         </motion.div>
         {/* TEXT CONTAINER */}
