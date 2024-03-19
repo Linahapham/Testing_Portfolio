@@ -173,7 +173,7 @@ const PortfolioPage = () => {
 
             {/*Do you have project */}
             <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center bg-gradient-to-b from-blue-100 to-red-100">
-                <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">Do you have a project?</h1>
+                <h1 className="text-xl font-bold md:text-4xl lg:text-5xl xl:text-7xl">BRING YOUR PROJECT TO LIFE!</h1>
                 <div className="relative">
                     <motion.svg
                         animate={{ rotate: 360 }}
