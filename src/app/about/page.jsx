@@ -517,7 +517,7 @@ const AboutPage = () => {
                             View Resume&apos;
                         </h1>
 
-                        <Link href="/about"><button className="p-4 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white">
+                        <Link href="https://www.canva.com/design/DAGAKCAtOuU/38YwGBpC5DAKkrypcVpBfQ/view?utm_content=DAGAKCAtOuU&utm_campaign=designshare&utm_medium=link&utm_source=editor"><button className="p-4 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white">
                             Download My Resume&apos;
                         </button></Link>
                     </div>
