@@ -61,12 +61,13 @@ const AboutPage = () => {
                             Hello everyone, my name is <span className="bg-black text-white rounded text-bold"> HUYEN NGUYEN</span> or you can call me LINA. I am a junior Front-End Developer (web & mobile apps). I have successfully launched and sold an online business. I specialize in website and app development in the bike rental and food delivery sectors. I consider myself to have a strong work ethic and a passion for technology, as demonstrated through my self-learning experiences.
                         </p>
 
-                        <p className="text-xl ">
+                        <p className="text-lg ">
                             My obsession is to deliver a digital experience that not only serves a great purpose, but gives your business an unfair advantage.
                         </p>
                         {/* BIOGRAPHY QUOTE */}
-                        <span className="italic">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <span className="italic block mb-4"> {/* Add margin bottom */}
+                            “A problem is a chance for you to do your best.”<br />
+                            {/*<span className="items-left">Duke Ellington</span>*/}
                         </span>
                         {/* BIOGRAPHY SIGN SVG*/}
                         <div className="self-end">
@@ -145,7 +146,7 @@ const AboutPage = () => {
                                     Next.js
                                 </div>
                                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                    SCSS
+                                    Bootstrap
                                 </div>
                                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                                     Tailwind CSS
@@ -173,40 +174,46 @@ const AboutPage = () => {
 
 
                                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                    AWS
+                                    Git
                                 </div>
 
                                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                                     Git
                                 </div>
                                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                    Figma
+                                    Kotlin
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    After Effect
+                                </div>
+                                <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                                    Premium Pro
                                 </div>
                             </div>
 
 
-                            <div className="hidden flex-row md:flex gap-4 ">
+                            {/*<div className="hidden flex-row md:flex gap-4 ">
                                 <Link href="/">
-                                    <Image src="/github.png" alt="" width={40} height={40} />
+                                    <Image src="/html.png" alt="" width={40} height={40} />
 
                                 </Link>
                                 <Link href="#">
-                                    <Image src="/linkedln.png" alt="" width={40} height={40} />
+                                    <Image src="/css.png" alt="" width={40} height={40} />
 
                                 </Link>
                                 <Link href="#">
-                                    <Image src="/insta.png" alt="" width={40} height={40} />
+                                    <Image src="/js.png" alt="" width={40} height={40} />
 
                                 </Link>
                                 <Link href="#">
-                                    <Image src="/tri.png" alt="" width={40} height={40} />
+                                    <Image src="/react.png" alt="" width={40} height={40} />
 
                                 </Link>
                                 <Link href="#">
                                     <Image src="/behance.png" alt="" width={40} height={40} />
 
                                 </Link>
-                            </div>
+                        </div>*/}
                         </motion.div>
                         {/* SKILL SCROLL SVG */}
                         <motion.svg
@@ -389,7 +396,7 @@ const AboutPage = () => {
                         <motion.div
                             initial={{ x: "-600px" }}
                             animate={isExperienceRefInView ? { x: "0" } : {}}
-                            className=""
+                            className="gap-6 pb-20"
                         >
                             {/* EXPERIENCE LIST ITEM */}
                             <div className="flex justify-between h-48">
@@ -397,16 +404,15 @@ const AboutPage = () => {
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
                                     <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Junior Front-end Developer
+                                        Web Designer
                                     </div>
                                     {/* JOB DESC */}
                                     <div className="p-3 text-sm italic">
-                                        I led web development, offering expertise in JavaScript
-                                        frameworks.{" "}
+                                        Led collaborative redesign of Citizens Advice Bristol website with a team of two students, enhancing accessibility and usability.{" "}
                                     </div>
                                     {/* JOB DATE */}
                                     <div className="p-3 text-gray-400 text-sm font-semibold">
-                                        2021 - Present
+                                        2023-2024
                                     </div>
 
                                 </div>
@@ -437,15 +443,15 @@ const AboutPage = () => {
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
                                     <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        UX Designer
+                                        Web Developer
                                     </div>
                                     {/* JOB DESC */}
                                     <div className="p-3 text-sm italic">
-                                        I leverage user research, information architecture, and UI design to create seamless user journeys. I collaborate with clients to understand their needs and deliver effective design solutions.{" "}
+                                        Designed, developed and maintained the Posh Nails Fishponds website, ensuring updated content and seamless user experience.{" "}
                                     </div>
                                     {/* JOB DATE */}
                                     <div className="p-3 text-gray-400 text-sm font-semibold">
-                                        2023 - Present{" "}
+                                        Present{" "}
                                     </div>
                                     {/* JOB COMPANY
                                     <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
@@ -459,16 +465,15 @@ const AboutPage = () => {
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
                                     <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                                        Freelancer{" "}
+                                        Full-stack{" "}
                                     </div>
                                     {/* JOB DESC */}
                                     <div className="p-3 text-sm italic">
-                                        I provided web solutions, applying a range of technologies
-                                        to address client requirements.{" "}
+                                        I specialize in providing web design and web solutions, leveraging a diverse range of technologies to create impactful websites for a startup company in Canada. {" "}
                                     </div>
                                     {/* JOB DATE */}
                                     <div className="p-3 text-gray-400 text-sm font-semibold">
-                                        2022 - Present{" "}
+                                        Present{" "}
                                     </div>
                                 </div>
                                 {/* CENTER */}
@@ -517,9 +522,11 @@ const AboutPage = () => {
                             View Resume&apos;
                         </h1>
 
-                        <Link href="https://www.canva.com/design/DAGAKCAtOuU/38YwGBpC5DAKkrypcVpBfQ/view?utm_content=DAGAKCAtOuU&utm_campaign=designshare&utm_medium=link&utm_source=editor"><button className="p-4 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white">
-                            Download My Resume&apos;
-                        </button></Link>
+                        <Link href="https://www.canva.com/design/DAGAKCAtOuU/38YwGBpC5DAKkrypcVpBfQ/view?utm_content=DAGAKCAtOuU&utm_campaign=designshare&utm_medium=link&utm_source=editor">
+                            <button className="p-4 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white">
+                                Download My Resume&apos;
+                            </button>
+                        </Link>
                     </div>
 
 

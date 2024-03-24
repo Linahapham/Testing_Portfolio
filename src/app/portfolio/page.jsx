@@ -9,17 +9,17 @@ const items = [
         id: 1,
         //color: "from-red-300 to-blue-300",
         //title: "Voice Assistant",
-        desc: "Say hello to my groundbreaking final project: Voice Assistant Food Shopping. No more scribbling on scraps of paper or fumbling with your phone while navigating the aisles. With Voice Assistant Food Shopping, you can plan meals, track inventory, and even receive personalized recipe suggestions—all through the power of your voice.",
-        img: "/beproductive.png",
-        link: "https://lama.dev",
-        link2: "http://localhost:3000/portfolio",
+        desc: " I discovered the power of Next.js and Framer Motion through a tutorial, which led me to create this dynamic and captivating portfolio. My portfolio stands as a testament to my growth and determination as a web developer.",
+        img: "/post.png",
+        link: "https://www.behance.net/gallery/194679095/Personal-Portfolio_Shades-of-Black-White",
+        link2: "https://github.com/Linahapham/Huyenpost.git",
     },
     {
         id: 2,
         //color: "from-blue-300 to-violet-300",
         //title: "UX-Design",
         desc: "Welcome to the new Citizens Advice Bristol website—a user-friendly hub for community support. Simplified navigation, enhanced search, and tailored resources await. Join us on this journey of empowerment..",
-        img: "/cabbristol.png",
+        img: "/bab.png",
         link: "https://lama.dev",
         link2: "https://www.behance.net/gallery/193529083/Sustainable-food-choices-for-students",
     },
@@ -27,9 +27,9 @@ const items = [
         id: 3,
         //color: "from-violet-300 to-purple-300",
         //title: "Design Solution ",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-        img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-        link: "https://lama.dev",
+        desc: "Be Productive is your ultimate productivity companion, built with Kotlin for Android. It follows the Pomodoro Technique, helping users focus for 25 minutes and take a 5-minute break. Plus, it includes note-taking and articles features, all designed on Figma and developed to perfection.",
+        img: "/bepro.png",
+        link: "https://www.behance.net/gallery/193525385/BeProductive_Kotlin-Mobile-Application",
         link2: "http://localhost:3000/portfolio",
     },
     {
@@ -37,48 +37,22 @@ const items = [
         //color: "from-purple-300 to-red-300",
         //title: "Mobile Application",
         desc: "BeProductive is an Android application developed using the Kotlin programming language. Designed and developed as part of a mobile application module, it aims to enhance productivity by offering intuitive task management and scheduling features. Are you curious about how it all comes together? ",
-        img: "/beproductive.png",
+        img: "/sustainable.png",
         link: "https://www.behance.net/gallery/193525385/BeProductive_Kotlin-Mobile-Application",
         link2: "http://localhost:3000/portfolio",
     },
+
     {
         id: 5,
         //color: "from-red-300 to-yellow-300",
-        //title: "Posh Nails Fishponds",
-        desc: " I'm currently working as a freelancer to design website for a nail salon in Fishpond",
-        img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        link: "https://lama.dev",
-        link2: "http://localhost:3000/portfolio",
-    },
-    {
-        id: 6,
-        //color: "from-red-300 to-yellow-300",
-        //title: "User Experience",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-        img: "/landing.png",
-        link: "https://lama.dev",
-        link2: "http://localhost:3000/portfolio",
-    },
-    {
-        id: 7,
-        //color: "from-red-300 to-yellow-300",
-        //title: "Are you okay?",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-        img: "/areyouokay.png",
-        link: "https://lama.dev",
-        link2: "http://localhost:3000/portfolio",
-    },
-    {
-        id: 8,
-        //color: "from-red-300 to-yellow-300",
         //title: "BikePal",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+        desc: "BikePal is my first Bootstrap 5 project, born from my Graphic and Web Studio module at UWE. It's where I learned the ropes of web design and development. From crafting an intriguing logo to mastering responsive layouts, BikePal encapsulates my journey and newfound skills in a sleek and user-friendly website.",
         img: "/bikepal.png",
         link: "https://t47-nguyen.github.io/BikePal/",
         link2: "http://localhost:3000/portfolio",
     },
     {
-        id: 9,
+        id: 6,
         //color: "from-red-300 to-yellow-300",
         //title: "Clo-CloDry",
         desc: "Clo_CloDry marks my inaugural venture into website development, proudly showcasing my HTML5 UP and CSS skills honed during the Graphic and Web Studio module in my first year at UWE. From conceptualization to execution, I meticulously crafted every aspect of the site, including the logo, posters, menu design, and content. This project not only demonstrates my technical proficiency but also reflects my creative vision and dedication to delivering an immersive digital experience.",
@@ -87,10 +61,10 @@ const items = [
         link2: "https://github.com/T47-Nguyen/Clo-CloDry.git",
     },
     {
-        id: 10,
+        id: 7,
         //color: "from-red-300 to-yellow-300",
         //title: "Clo-CloDry",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+        desc: "I've created a 2D animated video using After Effects to  capture the poignant narrative of academic pressure experienced by students in Vietnam due to parental expectations. It's a powerful portrayal of a universal issue, highlighting the importance of empathy and understanding in supporting students' mental and emotional well-being.",
         img: "/mp.png",
         link: "https://youtu.be/EutHQKlLNeI",
         link2: "https://youtu.be/EutHQKlLNeI",
@@ -101,7 +75,7 @@ const PortfolioPage = () => {
     const ref = useRef();
 
     const { scrollYProgress } = useScroll({ target: ref });
-    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-90%"]);
+    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
 
     return (
         <motion.div
@@ -110,7 +84,7 @@ const PortfolioPage = () => {
             animate={{ y: "0%" }}
             transition={{ duration: 1 }}
         >
-            <div className="h-[600vh] relative" ref={ref}>
+            <div className="h-[500vh] relative" ref={ref}>
                 <div className="w-screen h-[calc(80vh-6rem)] flex items-center justify-center text-8xl text-center">
                     <motion.h1
                         animate={{
@@ -135,8 +109,8 @@ const PortfolioPage = () => {
 
                 </div>
                 <div className="sticky top-0 flex h-screen gap-2 overflow-hidden ">
-                    <motion.div style={{ x }} className="flex">
-                        <div className="h-[80vh] w-screen flex items-center bg-gradient-to-b from-red-100 to-blue-100" />
+                    <motion.div style={{ x }} className="flex items-center">
+                        <div className="h-[100vh] w-screen flex items-center bg-gradient-to-b from-red-100 to-blue-100" />
                         {items.map((item) => (
                             <div
                                 className={`h-screen w-screen flex items-center  bg-gradient-to-b from-red-100 to-blue-100`}
@@ -154,11 +128,11 @@ const PortfolioPage = () => {
                                     </p>
                                     <div className="flex">
                                         <Link href={item.link} className="flex justify-end">
-                                            <button className="p-2 text-wrap text-sm md:p-4 md:text-md lg:p-4 lg:text-lg bg-gradient-to-b from-red-200 to-blue-200 text-gray-600 font-semibold m-4 rounded">See Demo</button>
+                                            <button className="p-2 text-wrap text-sm md:p-4 md:text-md lg:p-4 lg:text-lg ring-1 ring-black  hover:bg-black hover:text-white font-semibold m-4 rounded">See Demo</button>
 
                                         </Link>
                                         <Link href={item.link2} className="flex justify-end">
-                                            <button className="p-2 text-wrap text-sm md:p-4 md:text-md lg:p-4 lg:text-lg bg-gradient-to-b from-red-200 to-blue-200 text-gray-600 font-semibold m-4 rounded">Github</button>
+                                            <button className=" p-2 text-wrap text-sm md:p-4 md:text-md lg:p-4 lg:text-lg ring-1 ring-black  hover:bg-black hover:text-white font-semibold m-4 rounded">Github</button>
 
                                         </Link>
 
@@ -203,11 +177,11 @@ const PortfolioPage = () => {
                 </div>
             </div>
             {/*Keep in touch */}
-            <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center bg-gradient-to-b from-red-100 to-red-200">
+            {/* <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center bg-gradient-to-b from-red-100 to-red-200">
 
                 <Link href="/contact"> <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">GET IN TOUCH</h1> </Link>
 
-            </div>
+                        </div> */}
         </motion.div >
     );
 };

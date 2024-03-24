@@ -27,6 +27,7 @@ const Homepage = () => {
             repeatType: "reverse"
           }}
           className="  lg:w-1/2 relative flex items-center justify-center pb-4"
+
         >
           <img
             src="/hlogo.png"
@@ -40,8 +41,8 @@ const Homepage = () => {
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
-          <h1 className="text-4xl md:text-6xl font-bold"
-            style={{ fontFamily: 'Angkor, sans-serif' }}>
+          <h1 className="text-4xl md:text-6xl font-bold "
+          >
             A Front-end Developer & Web Designer
           </h1>
           {/* DESC */}

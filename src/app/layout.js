@@ -1,11 +1,12 @@
-import { Inter, Anton, Angkor } from "next/font/google";
+import { Inter, Anton, Angkor, Lexend_Deca } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 import TransitionProvider from "./components/transitionProvider";
 
 const inter = Inter({ subsets: ['latin'] });
-const anton = Anton({ weight: '400', subsets: ['latin'] });
-const angkor = Angkor({ weight: '400', subsets: ['latin'] });
+//const lexend_deca = Lexend_Deca({ subsets: ['latin'] });
+//const anton = Anton({ weight: '400', subsets: ['latin'] });
+//const angkor = Angkor({ weight: '400', subsets: ['latin'] });
 
 
 export const metadata = {
