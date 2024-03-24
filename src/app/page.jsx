@@ -42,7 +42,7 @@ const Homepage = () => {
           {/* TITLE */}
           <h1 className="text-4xl md:text-6xl font-bold"
             style={{ fontFamily: 'Angkor, sans-serif' }}>
-            A Front-end Developer & Web Designer.
+            A Front-end Developer & Web Designer
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
