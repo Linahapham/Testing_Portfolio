@@ -85,7 +85,7 @@ const PortfolioPage = () => {
             transition={{ duration: 1 }}
         >
             <div className="h-[600vh] relative" ref={ref}>
-                <div className="w-screen h-[calc(100vh-6rem)] flex flex-col gap-20 text-2xl font-bold md:text-4xl lg:text-5xl xl:text-7xl items-center justify-center text-center">
+                <div className="w-screen h-[calc(100vh-6rem)] flex flex-col gap-20 text-4xl font-bold md:text-4xl lg:text-5xl xl:text-8xl items-center justify-center text-center">
                     <h1>
                         HUYEN@PROJECTS
                     </h1>
@@ -154,7 +154,7 @@ const PortfolioPage = () => {
                 </div>
             </div>
             <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center bg-gradient-to-b from-blue-100 to-red-200">
-                <h1 className="text-8xl">Do you have a project?</h1>
+                <h1 className="text-xl font-bold md:text-4xl lg:text-5xl xl:text-8xl">Do you have a project?</h1>
                 <div className="relative">
                     <motion.svg
                         animate={{ rotate: 360 }}
