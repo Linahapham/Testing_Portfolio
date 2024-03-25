@@ -8,13 +8,13 @@ import { useRef } from "react";
 const Homepage = () => {
   return (
     <motion.div
-      className="h-full"
+      className="h-full overflow-y-hidden"
       initial={{ y: "-200vh" }}
       animate={{ y: "0%" }}
 
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex items-center flex-col lg:flex-row px-4 sm:px-8 justify-center md:px-12 lg:px-20 xl:px-48">
+      <div className="h-full flex items-center flex-col lg:flex-row px-4 sm:px-8 justify-center md:px-12 lg:px-20 xl:px-48 ">
         {/* IMAGE CONTAINER */}
         <motion.div
           initial={{ opacity: 0, scale: 1.2, rotate: 0 }}

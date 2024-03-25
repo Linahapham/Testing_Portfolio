@@ -18,7 +18,7 @@ const AboutPage = () => {
     const isExperienceRefInView = useInView(experienceRef, { margin: "-100px" });
 
     const educationRef = useRef();
-    const isEducationRefInView = useInView(educationRef, { margin: "-100px" });
+    const isEducationRefInView = useInView(educationRef, { margin: "-80px" });
 
 
     return (
@@ -91,6 +91,11 @@ const AboutPage = () => {
                             xmlns="http://www.w3.org/2000/svg"
                             width={50}
                             height={50}
+                            // Add onClick event handler to navigate to the section below
+                            onClick={() => {
+                                // Scroll to the section below using smooth behavior
+                                document.getElementById("skillSection").scrollIntoView({ behavior: "smooth" });
+                            }}
                         >
                             <path
                                 d="M5 15C5 16.8565 5.73754 18.6371 7.05029 19.9498C8.36305 21.2626 10.1435 21.9999 12 21.9999C13.8565 21.9999 15.637 21.2626 16.9498 19.9498C18.2625 18.6371 19 16.8565 19 15V9C19 7.14348 18.2625 5.36305 16.9498 4.05029C15.637 2.73754 13.8565 2 12 2C10.1435 2 8.36305 2.73754 7.05029 4.05029C5.73754 5.36305 5 7.14348 5 9V15Z"
@@ -107,7 +112,7 @@ const AboutPage = () => {
                     </div>
 
                     {/* SKILLS CONTAINER */}
-                    <div className="flex flex-col gap-12 justify-center" ref={skillRef}>
+                    <div id="skillSection" className="flex flex-col gap-12 justify-center" ref={skillRef}>
                         {/* SKILL TITLE */}
                         <motion.h1
                             initial={{ x: "-300px" }}
@@ -225,6 +230,13 @@ const AboutPage = () => {
                             xmlns="http://www.w3.org/2000/svg"
                             width={50}
                             height={50}
+
+                            // Add onClick event handler to navigate to the section below
+                            onClick={() => {
+                                // Scroll to the section below using smooth behavior
+                                document.getElementById("educationSection").scrollIntoView({ behavior: "smooth" });
+                            }}
+
                         >
                             <path
                                 d="M5 15C5 16.8565 5.73754 18.6371 7.05029 19.9498C8.36305 21.2626 10.1435 21.9999 12 21.9999C13.8565 21.9999 15.637 21.2626 16.9498 19.9498C18.2625 18.6371 19 16.8565 19 15V9C19 7.14348 18.2625 5.36305 16.9498 4.05029C15.637 2.73754 13.8565 2 12 2C10.1435 2 8.36305 2.73754 7.05029 4.05029C5.73754 5.36305 5 7.14348 5 9V15Z"
@@ -241,7 +253,7 @@ const AboutPage = () => {
                     </div>
 
                     {/* education CONTAINER */}
-                    <div className="flex flex-col gap-12 justify-center" ref={educationRef}
+                    <div id="educationSection" className="flex flex-col gap-12 justify-center" ref={educationRef}
                     >
                         {/* course TITLE */}
                         <motion.h1
@@ -364,6 +376,11 @@ const AboutPage = () => {
                             xmlns="http://www.w3.org/2000/svg"
                             width={50}
                             height={50}
+                            // Add onClick event handler to navigate to the section below
+                            onClick={() => {
+                                // Scroll to the section below using smooth behavior
+                                document.getElementById("experienceSection").scrollIntoView({ behavior: "smooth" });
+                            }}
                         >
                             <path
                                 d="M5 15C5 16.8565 5.73754 18.6371 7.05029 19.9498C8.36305 21.2626 10.1435 21.9999 12 21.9999C13.8565 21.9999 15.637 21.2626 16.9498 19.9498C18.2625 18.6371 19 16.8565 19 15V9C19 7.14348 18.2625 5.36305 16.9498 4.05029C15.637 2.73754 13.8565 2 12 2C10.1435 2 8.36305 2.73754 7.05029 4.05029C5.73754 5.36305 5 7.14348 5 9V15Z"
@@ -381,7 +398,7 @@ const AboutPage = () => {
 
                     </div>
                     {/* EXPERIENCE CONTAINER */}
-                    <div className="flex flex-col gap-12 justify-center" ref={experienceRef}
+                    <div id="experienceSection" className="flex flex-col gap-12 justify-center" ref={experienceRef}
                     >
                         {/* EXPERIENCE TITLE */}
                         <motion.h1
@@ -498,6 +515,11 @@ const AboutPage = () => {
                             xmlns="http://www.w3.org/2000/svg"
                             width={50}
                             height={50}
+                            // Add onClick event handler to navigate to the section below
+                            onClick={() => {
+                                // Scroll to the section below using smooth behavior
+                                document.getElementById("resumeSection").scrollIntoView({ behavior: "smooth" });
+                            }}
                         >
                             <path
                                 d="M5 15C5 16.8565 5.73754 18.6371 7.05029 19.9498C8.36305 21.2626 10.1435 21.9999 12 21.9999C13.8565 21.9999 15.637 21.2626 16.9498 19.9498C18.2625 18.6371 19 16.8565 19 15V9C19 7.14348 18.2625 5.36305 16.9498 4.05029C15.637 2.73754 13.8565 2 12 2C10.1435 2 8.36305 2.73754 7.05029 4.05029C5.73754 5.36305 5 7.14348 5 9V15Z"
@@ -517,14 +539,14 @@ const AboutPage = () => {
                     </div>
 
                     {/*CV*/}
-                    <div className="flex flex-col gap-12 justify-center pb-12">
+                    <div id="resumeSection" className="flex flex-col gap-12 justify-center pb-12">
                         <h1 className="font-bold text-2xl">
                             View Resume&apos;
                         </h1>
 
                         <Link href="https://www.canva.com/design/DAGAKCAtOuU/38YwGBpC5DAKkrypcVpBfQ/view?utm_content=DAGAKCAtOuU&utm_campaign=designshare&utm_medium=link&utm_source=editor">
                             <button className="p-4 rounded-lg ring-1 ring-black  hover:bg-black hover:text-white">
-                                Download My Resume&apos;
+                                View My Resume&apos;
                             </button>
                         </Link>
                     </div>

@@ -75,7 +75,7 @@ const PortfolioPage = () => {
     const ref = useRef();
 
     const { scrollYProgress } = useScroll({ target: ref });
-    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
+    const x = useTransform(scrollYProgress, [0, 1], ["0%", "-90%"]);
 
     return (
         <motion.div
@@ -84,44 +84,24 @@ const PortfolioPage = () => {
             animate={{ y: "0%" }}
             transition={{ duration: 1 }}
         >
-            <div className="h-[500vh] relative" ref={ref}>
-                <div className="w-screen h-[calc(80vh-6rem)] flex items-center justify-center text-8xl text-center">
-                    <motion.h1
-                        animate={{
-                            scale: [1, 2, 1, 1, 1],
-                            //rotate: [0, 0, 180, 180, 0],
-                            borderRadius: ["0%", "0%", "50%", "50%", "0%"]
-                        }}
-                        transition={{
-                            duration: 2,
-                            ease: "easeInOut",
-                            times: [0, 0.2, 0.5, 0.8, 1],
-                            repeat: Infinity,
-                            repeatDelay: 1
-                        }}
-
-                        className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
-                        Huyen@Projects
-                    </motion.h1>
-                    <p>
-
-                    </p>
-
+            <div className="h-[600vh] relative" ref={ref}>
+                <div className="w-screen h-[calc(100vh-6rem)] text-2xl font-bold md:text-4xl lg:text-5xl xl:text-7xl flex items-center justify-center text-center">
+                    HUYEN@PROJECTS
                 </div>
-                <div className="sticky top-0 flex h-screen gap-2 overflow-hidden ">
-                    <motion.div style={{ x }} className="flex items-center">
-                        <div className="h-[100vh] w-screen flex items-center bg-gradient-to-b from-red-100 to-blue-100" />
+                <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden bg-gradient-to-b from-red-100 to-blue-100">
+                    <motion.div style={{ x }} className="flex">
+                        <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-b from-red-100 to-blue-100 " />
                         {items.map((item) => (
                             <div
-                                className={`h-screen w-screen flex items-center  bg-gradient-to-b from-red-100 to-blue-100`}
+                                className={`h-screen w-screen flex items-center justify-center bg-gradient-to-b from-red-100 to-blue-100 `}
                                 key={item.id}
                             >
-                                <div className="flex flex-col gap-6 text-gray-600 items-center ">
-                                    <h1 className="text-xl font-bold md:text-2xl lg:text-4xl xl:text-5xl">
+                                <div className="flex flex-col gap-8 text-gray-600">
+                                    <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
                                         {item.title}
                                     </h1>
-                                    <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
-                                        <Image src={item.img} alt="" fill className="rounded-lg" />
+                                    <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[350px]">
+                                        <Image src={item.img} alt="" fill />
                                     </div>
                                     <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                                         {item.desc}
@@ -137,17 +117,14 @@ const PortfolioPage = () => {
                                         </Link>
 
                                     </div>
-
                                 </div>
                             </div>
                         ))}
                     </motion.div>
                 </div>
             </div>
-
-            {/*Do you have project */}
-            <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center bg-gradient-to-b from-blue-100 to-red-100">
-                <h1 className="text-xl font-bold md:text-4xl lg:text-5xl xl:text-7xl">BRING YOUR PROJECT TO LIFE!</h1>
+            <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center bg-gradient-to-b from-blue-100 to-red-200">
+                <h1 className="text-8xl">Do you have a project?</h1>
                 <div className="relative">
                     <motion.svg
                         animate={{ rotate: 360 }}
@@ -167,7 +144,6 @@ const PortfolioPage = () => {
                             </textPath>
                         </text>
                     </motion.svg>
-
                     <Link
                         href="/contact"
                         className="font-semibold w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white  hover:bg-white hover:text-black  rounded-full flex items-center justify-center"
@@ -176,13 +152,7 @@ const PortfolioPage = () => {
                     </Link>
                 </div>
             </div>
-            {/*Keep in touch */}
-            {/* <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center bg-gradient-to-b from-red-100 to-red-200">
-
-                <Link href="/contact"> <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">GET IN TOUCH</h1> </Link>
-
-                        </div> */}
-        </motion.div >
+        </motion.div>
     );
 };
 
