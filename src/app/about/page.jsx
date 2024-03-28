@@ -11,7 +11,7 @@ const AboutPage = () => {
     const { scrollYProgress } = useScroll({ container: containerRef });
 
     const skillRef = useRef();
-    //const isSkillRefInView1 = useInView(skillRef, { once: true });
+
     const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
 
     const experienceRef = useRef();
@@ -67,7 +67,7 @@ const AboutPage = () => {
                         {/* BIOGRAPHY QUOTE */}
                         <span className="italic block mb-4"> {/* Add margin bottom */}
                             “A problem is a chance for you to do your best.”<br />
-                            {/*<span className="items-left">Duke Ellington</span>*/}
+
                         </span>
                         {/* BIOGRAPHY SIGN SVG*/}
                         <div className="self-end">
