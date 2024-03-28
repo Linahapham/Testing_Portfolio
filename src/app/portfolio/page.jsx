@@ -2,7 +2,8 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
+import { useMediaQuery } from "@react-hook/media-query";
 
 const items = [
     {
@@ -73,6 +74,20 @@ const items = [
 
 const PortfolioPage = () => {
     const ref = useRef();
+
+    const [isMobile, setIsMobile] = useState(false);
+
+    // Check if the device width is less than 768px (typical mobile device width)
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+
+        handleResize(); // Initial check
+        window.addEventListener('resize', handleResize);
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     const { scrollYProgress } = useScroll({ target: ref });
     const x = useTransform(scrollYProgress, [0, 1], ["0%", "-90%"]);
