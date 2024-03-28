@@ -65,9 +65,9 @@ const Navbar = () => {
     };
 
     return (
-        <div className="fixed top-0 left-0 right-0 z-50 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 py-4 flex items-center justify-between text-xl">
+        <div className="fixed top-0 left-0 right-0 z-50 px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 py-4 flex items-center justify-between text-xl ">
             {/* Links */}
-            <div className="hidden md:hidden-flex gap-4 w-1/3">
+            <div className="hidden md:flex gap-4 w-1/3">
                 {links.map((link) => (
                     <NavLink link={link} key={link.title} />
                 ))}
