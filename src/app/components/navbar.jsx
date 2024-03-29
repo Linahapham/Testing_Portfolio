@@ -91,15 +91,14 @@ const Navbar = () => {
                     <Image src="/linkedln.png" alt="" width={28} height={28} />
 
                 </Link>
-                <Link href="#">
-                    <Image src="/insta.png" alt="" width={28} height={28} />
+
+
+
+                <Link href="https://www.youtube.com/channel/UCCKEpqTxkbYa2ZXPBttZARw">
+                    <Image src="/youtube.png" alt="" width={28} height={28} />
 
                 </Link>
-                <Link href="#">
-                    <Image src="/tri.png" alt="" width={28} height={28} />
-
-                </Link>
-                <Link href="#">
+                <Link href="https://www.behance.net/thinguyen60/">
                     <Image src="/behance.png" alt="" width={28} height={28} />
 
                 </Link>
@@ -148,7 +147,7 @@ const Navbar = () => {
                     </motion.div>
                 )}
             </div>
-        </div>
+        </div >
     );
 };
 

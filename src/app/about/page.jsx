@@ -183,7 +183,7 @@ const AboutPage = () => {
                                 </div>
 
                                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                                    Git
+                                    Three.js
                                 </div>
                                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                                     Kotlin
@@ -274,7 +274,7 @@ const AboutPage = () => {
                                 {/* LEFT */}
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
-                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-gray-600 hover:text-white  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-gray-600 bg-gradient-to-b from-gray-100 to-gray-600  hover:text-black   rounded-b-lg rounded-s-lg ">
                                         Graphic & Web Design Studio
                                     </div>
                                     <div className="  p-2 font-semibold rounded-b-lg rounded-s-lg">
@@ -291,7 +291,7 @@ const AboutPage = () => {
                                 </div>
                                 {/* RIGHT */}
                                 <div className="w-1/3 ">
-                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-gray-600  hover:text-white  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-gray-600 bg-gradient-to-b from-gray-100 to-gray-600   hover:text-black   rounded-b-lg rounded-s-lg ">
                                         Introduction to Creative Coding
                                     </div>
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
@@ -305,7 +305,7 @@ const AboutPage = () => {
                                 {/* LEFT */}
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
-                                    <div className=" p-2 font-semibold text-gray-600  bg-gradient-to-b from-gray-100 to-gray-300   hover:text-black  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-gray-600  bg-gradient-to-b from-gray-100 to-gray-600  hover:text-black   rounded-b-lg rounded-s-lg ">
                                         User Experience
                                     </div>
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
@@ -325,7 +325,7 @@ const AboutPage = () => {
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
                                         Sound Design
                                     </div>
-                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-gray-600  hover:text-white  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-gray-600 bg-gradient-to-b from-gray-100 to-gray-600   hover:text-black  rounded-b-lg rounded-s-lg ">
                                         Creative and Physical Computing
                                     </div>
 
@@ -336,7 +336,7 @@ const AboutPage = () => {
                                 {/* LEFT */}
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
-                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-gray-600  hover:text-white  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-gray-600 bg-gradient-to-b from-gray-100 to-gray-600   hover:text-black   rounded-b-lg rounded-s-lg ">
                                         Design Enterprise Studio
                                     </div>
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg">
@@ -354,7 +354,7 @@ const AboutPage = () => {
                                 </div>
                                 {/* RIGHT */}
                                 <div className="w-1/3 ">
-                                    <div className=" p-2 font-semibold text-black bg-gradient-to-b from-gray-100 to-gray-600  hover:text-white  rounded-b-lg rounded-s-lg ">
+                                    <div className=" p-2 font-semibold text-gray-600 bg-gradient-to-b from-gray-100 to-gray-600  hover:text-black  rounded-b-lg rounded-s-lg ">
                                         Interaction Design
                                     </div>
                                     <div className=" p-2 font-semibold rounded-b-lg rounded-s-lg ">

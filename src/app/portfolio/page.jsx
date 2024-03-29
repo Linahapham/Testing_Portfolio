@@ -21,8 +21,8 @@ const items = [
         //title: "UX-Design",
         desc: "Welcome to the new Citizens Advice Bristol website—a user-friendly hub for community support. Simplified navigation, enhanced search, and tailored resources await. Join us on this journey of empowerment..",
         img: "/bab.png",
-        link: "https://lama.dev",
-        link2: "https://www.behance.net/gallery/193529083/Sustainable-food-choices-for-students",
+        link: "https://cab-dev.panel.uwe.ac.uk/wordpress/",
+        link2: "https://app.pitch.com/app/presentation/461d42bd-4b80-4df2-a1b9-412466ccd605/1a1387b1-3ae8-4051-9db8-17f917f3e873",
     },
     {
         id: 3,
@@ -31,7 +31,7 @@ const items = [
         desc: "Be Productive is your ultimate productivity companion, built with Kotlin for Android. It follows the Pomodoro Technique, helping users focus for 25 minutes and take a 5-minute break. Plus, it includes note-taking and articles features, all designed on Figma and developed to perfection.",
         img: "/bepro.png",
         link: "https://www.behance.net/gallery/193525385/BeProductive_Kotlin-Mobile-Application",
-        link2: "http://localhost:3000/portfolio",
+        link2: "https://uweacuk-my.sharepoint.com/personal/thi59_nguyen_live_uwe_ac_uk/_layouts/15/stream.aspx?id=%2Fpersonal%2Fthi59%5Fnguyen%5Flive%5Fuwe%5Fac%5Fuk%2FDocuments%2Fexplain%20%26%20demo%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview",
     },
     {
         id: 4,
@@ -50,7 +50,7 @@ const items = [
         desc: "BikePal is my first Bootstrap 5 project, born from my Graphic and Web Studio module at UWE. It's where I learned the ropes of web design and development. From crafting an intriguing logo to mastering responsive layouts, BikePal encapsulates my journey and newfound skills in a sleek and user-friendly website.",
         img: "/bikepal.png",
         link: "https://t47-nguyen.github.io/BikePal/",
-        link2: "http://localhost:3000/portfolio",
+        link2: "https://github.com/T47-Nguyen/BikePal.git",
     },
     {
         id: 6,
@@ -68,7 +68,7 @@ const items = [
         desc: "I've created a 2D animated video using After Effects to  capture the poignant narrative of academic pressure experienced by students in Vietnam due to parental expectations. It's a powerful portrayal of a universal issue, highlighting the importance of empathy and understanding in supporting students' mental and emotional well-being.",
         img: "/mp.png",
         link: "https://youtu.be/EutHQKlLNeI",
-        link2: "https://youtu.be/EutHQKlLNeI",
+        link2: "https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:b24e6483-0518-3aec-958e-4c3ce9944e1e",
     },
 ];
 
@@ -157,7 +157,7 @@ const PortfolioPage = () => {
 
                                         </Link>
                                         <Link href={item.link2} className="flex justify-end">
-                                            <button className=" p-2 text-wrap text-sm md:p-4 md:text-md lg:p-4 lg:text-lg ring-1 ring-black  hover:bg-black hover:text-white font-semibold m-4 rounded">Github</button>
+                                            <button className=" p-2 text-wrap text-sm md:p-4 md:text-md lg:p-4 lg:text-lg ring-1 ring-black  hover:bg-black hover:text-white font-semibold m-4 rounded">More</button>
 
                                         </Link>
 
